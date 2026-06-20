@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "zh_CN_missing_item_names",
+    "name": "中文缺漏补丁：物品名称",
+    "authors": [ "Codex" ],
+    "description": "补充 zh_CN 版本中仍显示英文的部分玩家可见物品名称。当前覆盖鞋袜及成对脚部装备名称。",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]
