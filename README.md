@@ -6,7 +6,7 @@
 
 - `data/json/items/armor/boots.json` 中缺失 zh_CN 的 `name.str_sp`。
 - 覆盖 107 个鞋袜、足部护具及成对脚部装备条目。
-- 参考截图中的 `socks (pair)` 已覆盖为 `袜子（双）`。
+- 例如 `socks (pair)` 已覆盖为 `袜子（双）`。
 
 ## 扫描说明
 
