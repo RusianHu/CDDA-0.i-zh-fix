@@ -8,7 +8,7 @@
 
 ## 当前覆盖范围
 
-- 鞋袜、足部护具及成对脚部装备：107 个。
+- 鞋袜、足部护具及成对脚部装备：107 个，并覆盖相关变体名称。
 - 枪械与弹匣顶层名称：53 个。
 - 通用物品名称：15 个。
 
@@ -19,6 +19,7 @@
 - `socks (pair)` -> `袜子（双）`
 - `Glock 43` -> `格洛克 43 手枪`
 - `Glock 43 magazine` -> `格洛克 43 弹匣`
+- `blue striped stockings (pair)` -> `蓝色条纹长袜（双）`
 - `micro conceal carry pistol` -> `微型隐蔽携带手枪`
 - `primerless 9x18mm casing` -> `无底火 9x18mm 弹壳`
 
@@ -30,7 +31,7 @@
 tools/audit_item_name_gaps.py
 ```
 
-它会扫描基础游戏 `data/json/items` 下玩家可见的顶层 `ITEM.name` 字段，并统计：
+它会扫描基础游戏 `data/json/items` 下玩家可见的 `ITEM.name` 和 `variants.name` 字段，并统计：
 
 - 基础 zh_CN 中完全未翻译的名称；
 - 已被本 mod 覆盖的缺漏；

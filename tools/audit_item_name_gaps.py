@@ -47,6 +47,20 @@ def iter_item_names(root):
                     value = name.get(field)
                     if isinstance(value, str):
                         yield path, item_id, field, value
+            variants = entry.get("variants")
+            if isinstance(variants, list):
+                for variant in variants:
+                    if not isinstance(variant, dict):
+                        continue
+                    variant_id = variant.get("id", "")
+                    variant_name = variant.get("name")
+                    if isinstance(variant_name, str):
+                        yield path, item_id, f"variant:{variant_id}:name", variant_name
+                    elif isinstance(variant_name, dict):
+                        for field in ( "str", "str_sp" ):
+                            value = variant_name.get(field)
+                            if isinstance(value, str):
+                                yield path, item_id, f"variant:{variant_id}:{field}", value
 
 
 def load_mod_overrides(mod_dir):
@@ -69,6 +83,27 @@ def load_mod_overrides(mod_dir):
                 for field in ( "str", "str_sp" ):
                     if isinstance(name.get(field), str):
                         overrides[(item_id, field)] = name[field]
+                if isinstance(name.get("str_sp"), str):
+                    overrides[(item_id, "str")] = name["str_sp"]
+                if isinstance(name.get("str"), str):
+                    overrides[(item_id, "str_sp")] = name["str"]
+            variants = entry.get("variants")
+            if isinstance(variants, list):
+                for variant in variants:
+                    if not isinstance(variant, dict):
+                        continue
+                    variant_id = variant.get("id", "")
+                    variant_name = variant.get("name")
+                    if isinstance(variant_name, str):
+                        overrides[(item_id, f"variant:{variant_id}:name")] = variant_name
+                    elif isinstance(variant_name, dict):
+                        for field in ( "str", "str_sp" ):
+                            if isinstance(variant_name.get(field), str):
+                                overrides[(item_id, f"variant:{variant_id}:{field}")] = variant_name[field]
+                        if isinstance(variant_name.get("str_sp"), str):
+                            overrides[(item_id, f"variant:{variant_id}:str")] = variant_name["str_sp"]
+                        if isinstance(variant_name.get("str"), str):
+                            overrides[(item_id, f"variant:{variant_id}:str_sp")] = variant_name["str"]
     return overrides
 
 
@@ -110,7 +145,7 @@ def main():
         if leftovers:
             ascii_hits.append((str(path.relative_to(root)), item_id, field, source, final_text, ",".join(leftovers)))
 
-    print(f"visible top-level item name fields: {total}")
+    print(f"visible item name fields, including variants: {total}")
     print(f"base fully untranslated: {len(missing) + len(covered_missing)}")
     print(f"covered by this mod: {len(covered_missing)}")
     print(f"still fully untranslated: {len(missing)}")

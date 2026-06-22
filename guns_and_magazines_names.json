@@ -16,7 +16,7 @@
       {
         "id": "glock_29",
         "name": {
-          "str": "Glock 29 pistol"
+          "str_sp": "格洛克 29 手枪"
         },
         "description": "A modestly sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  It is easy to carry because of its small size, but also recoils fiercely."
       }
@@ -84,7 +84,7 @@
       {
         "id": "glock_20",
         "name": {
-          "str": "Glock 20 pistol"
+          "str_sp": "格洛克 20 手枪"
         },
         "description": "A full-sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The third model of Glock designed, all other full-sized, large framed Glocks are adaptations of this one."
       }
@@ -151,7 +151,7 @@
       {
         "id": "glock_40",
         "name": {
-          "str": "Glock 40 pistol"
+          "str_sp": "格洛克 40 手枪"
         },
         "description": "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use."
       }
@@ -186,7 +186,7 @@
       {
         "id": "TDI_10",
         "name": {
-          "str": "Vector SDP 10mm pistol"
+          "str_sp": "Vector SDP 10mm 手枪"
         },
         "description": "The Vector SDP is a delayed blowback \"pistol\" with a unique, downward reciprocating bolt that helps combat muzzle climb.  This one is chambered in 10mm Auto."
       }
@@ -521,7 +521,7 @@
       {
         "id": "TDI",
         "name": {
-          "str": ".45 Vector submachine gun"
+          "str_sp": ".45 Vector 冲锋枪"
         },
         "description": "The Vector SMG is a delayed blowback submachine gun with a unique, in-line design that places both the shooter's hand and shoulder in line with the bore axis, reducing muzzle climb during bursts.  This one is chambered in .45 ACP."
       }
@@ -621,7 +621,7 @@
       {
         "id": "glock_21",
         "name": {
-          "str": "Glock 21 pistol"
+          "str_sp": "格洛克 21 手枪"
         },
         "description": "A full-sized version of the highly successful Glock.  This model is chambered in .45 ACP."
       }
@@ -798,7 +798,7 @@
       {
         "id": "glock_19",
         "name": {
-          "str": "Glock 19 pistol"
+          "str_sp": "格洛克 19 手枪"
         },
         "description": "Possibly the most popular pistol in existence, the Glock 19 can be summed up as being fundamentally a more compact brother to the full-sized Glock 17 pistol.  Sporting a mainly polymer-based design, the Glock 19 is often derided for its plastic construction which lends the handgun a deceptively flimsy feel.  Even so, the Glock 19 remains both a remarkably reliable firearm and a quite shootable gun in its own right.",
         "weight": 100
@@ -806,7 +806,7 @@
       {
         "id": "glock_19_cop",
         "name": {
-          "str": "Glock 19M"
+          "str_sp": "格洛克 19M 手枪"
         },
         "description": "A Glock 19 developed specially for the FBI, with all black internals and match grade components.  It was nearly impossible to find on the civilian market before the Cataclysm, now it is completely irreplacable.",
         "weight": 0
@@ -814,7 +814,7 @@
       {
         "id": "glock_45",
         "name": {
-          "str": "Glock 45 pistol"
+          "str_sp": "格洛克 45 手枪"
         },
         "description": "The Glock 45 is practically identical to the Glock 19, the main difference being that the grip is styled to be closer to that of the Glock 17.",
         "weight": 77
@@ -1159,7 +1159,7 @@
       {
         "id": "ksub2000",
         "name": {
-          "str": "Kel-Tec SUB-2000 carbine"
+          "str_sp": "Kel-Tec SUB-2000 卡宾枪"
         },
         "description": "With its claim to fame being its ease of portability when compared to other conventional rifles and carbines, the Kel-Tec SUB-2000 is a uniquely-designed pistol caliber carbine sporting an integral folding mechanism and chambered for 9x19mm cartridges, making use of regular Glock compatible magazines.  With its mechanism engaged, the barrel assembly swings rearwards and causes the firearm to fold to half its regular length, packing up into a very compact package with ergonomics unfortunately having to take a backseat to allow for the weapon's extreme portability.  With a mainly polymer constructed receiver, the carbine is relatively light and incredibly transportable when fully folded."
       }
@@ -1255,7 +1255,7 @@
       {
         "id": "glock_17",
         "name": {
-          "str": "Glock 17 pistol"
+          "str_sp": "格洛克 17 手枪"
         },
         "description": "Commonly seen tucked away in the holsters of police officers, certain military professionals, and civilian shooters, this is a larger, older, service-oriented version of the popular Glock 19.  Similarly firing the 9x19mm cartridge and using higher capacity magazines, it performs largely the same, but due to the longer magazine well, it can't fit magazines shorter than the standard 17-round ones."
       }
@@ -1329,7 +1329,7 @@
       {
         "id": "glock_18c",
         "name": {
-          "str": "Glock 18C pistol"
+          "str_sp": "格洛克 18C 手枪"
         },
         "description": "A selective-fire variation on the Glock 17, originally designed for Austria's EKO Cobra unit.  It has compensator cuts along its barrel to make recoil more manageable."
       }
@@ -1371,7 +1371,7 @@
       {
         "id": "rugerpcc",
         "name": {
-          "str": "Ruger PCC"
+          "str_sp": "Ruger PCC 卡宾枪"
         },
         "description": "The Ruger PCC is a pistol caliber carbine, made by Ruger.  It's quite commonplace, thanks to its low recoil, reliability, and use of readily available magazines."
       }
@@ -1464,7 +1464,7 @@
       {
         "id": "savage_rascal",
         "name": {
-          "str": "Savage Rascal"
+          "str_sp": "Savage Rascal 步枪"
         },
         "description": "A .22 Long Rifle rifle that chambers just one shot.  Its main use is for the youth, and not much else.  God help you if you hope to use this thing to a meaningful effect."
       }
@@ -1554,7 +1554,7 @@
       {
         "id": "remington_700_308",
         "name": {
-          "str": "Remington Model 700"
+          "str_sp": "Remington Model 700 步枪"
         },
         "description": "An ubiquitous bolt action rifle, the Model 700 is used by police agencies, militaries, and civilians alike around the globe.  Simple, accurate, and cheap."
       }
@@ -1636,7 +1636,7 @@
       {
         "id": "lws32",
         "name": {
-          "str": "Seecamp LWS 32"
+          "str_sp": "Seecamp LWS 32 手枪"
         },
         "description": "A very small pistol chambered in .32 ACP.  It lacks any sort of sights as it's designed for very close engagement distances."
       }
@@ -1702,7 +1702,7 @@
       {
         "id": "m1014",
         "name": {
-          "str": "M1014 shotgun"
+          "str_sp": "M1014 霰弹枪"
         },
         "description": "Benelli's first gas-operated shotgun, featuring dual pistons for enhanced reliability with various loads and a collapsible buttstock that reduces length by almost 8 inches.  Adopted in 1999 as the M1014 Joint Service Combat Shotgun, the Benelli M4 is one of the finest combat shotguns available."
       }
@@ -1849,7 +1849,7 @@
       {
         "id": "glock_29mag",
         "name": {
-          "str": "Glock 29 10-round magazine"
+          "str_sp": "格洛克 29 10发弹匣"
         },
         "description": "A stubby steel and polymer magazine for use with the Glock 29.  It is too short to insert into most other 10mm Glock pattern magwells."
       }
@@ -1897,7 +1897,7 @@
       {
         "id": "tdi_10mm_mag",
         "name": {
-          "str": "Glock 10mm 30-round magazine"
+          "str_sp": "格洛克 10mm 30发弹匣"
         },
         "description": "A 30-round plastic and steel box 10mm Auto magazine for use with Glock pattern magazine wells, namely the Vector SDP."
       }
@@ -1984,7 +1984,7 @@
       {
         "id": "lws32mag",
         "name": {
-          "str": "Seecamp LWS 32 magazine"
+          "str_sp": "Seecamp LWS 32 弹匣"
         },
         "description": "A 6 round magazine for the LWS 32."
       }
@@ -2204,7 +2204,7 @@
       {
         "id": "tdi_mag",
         "name": {
-          "str": "Vector SMG 30-round magazine"
+          "str_sp": "Vector SMG 30发弹匣"
         },
         "description": "A 30-round polymer and steel box magazine for use with the KRISS Vector."
       }
@@ -2253,7 +2253,7 @@
       {
         "id": "glock_21mag",
         "name": {
-          "str": "Glock 21 13-round magazine"
+          "str_sp": "格洛克 21 13发弹匣"
         },
         "description": "A standard capacity magazine for use with the Glock 21."
       }
@@ -2324,7 +2324,7 @@
       {
         "id": "glock_21mag26",
         "name": {
-          "str": "Glock 21 26-round magazine"
+          "str_sp": "格洛克 21 26发弹匣"
         },
         "description": "A double-capacity magazine for use with the Glock 21."
       }

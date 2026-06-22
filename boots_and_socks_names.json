@@ -3327,7 +3327,7 @@
       {
         "id": "heels_stiletto",
         "name": {
-          "str_sp": "stiletto heels (pair)"
+          "str_sp": "细高跟鞋（双）"
         },
         "description": "A traditional pair of tall, high-heeled shoes with a tapered, slender heel, which makes strutting fashionable, walking a challenge, and running an impossibility.  These days, they'd probably be more useful to stab a zombie's eyes out than as footwear.",
         "weight": 10
@@ -3335,7 +3335,7 @@
       {
         "id": "heels_block",
         "name": {
-          "str_sp": "block heels (pair)"
+          "str_sp": "粗跟鞋（双）"
         },
         "description": "These are a pair of chunky, broad-based shoes with a sturdy block-like heel, and while they don't do you any favors in the mobility department, they're at least more comfortable to trudge about in than their peers and won't likely cause irreversible damage to your feet.",
         "weight": 10
@@ -3343,7 +3343,7 @@
       {
         "id": "heels_wedge",
         "name": {
-          "str_sp": "wedges (pair)"
+          "str_sp": "坡跟鞋（双）"
         },
         "description": "A pair of tall, high-heeled, open-toed shoes with thick wedges running the length of the shoe, serving as its heels.",
         "weight": 10
@@ -3351,7 +3351,7 @@
       {
         "id": "heels_platform",
         "name": {
-          "str_sp": "platform heels (pair)"
+          "str_sp": "厚底高跟鞋（双）"
         },
         "description": "A pair of heavy, thick-soled high-heeled shoes with a ridiculously tall heel supported by an ankle strap and chunky soles.  A great choice for when you've given up on basic biomechanical function and decided that you're more than willing to risk long-term damage to your feet for the sake of a ridiculous fashion statement in the ruins of America.",
         "weight": 10
@@ -3359,7 +3359,7 @@
       {
         "id": "heels_flag",
         "name": {
-          "str_sp": "liberty's heels (pair)"
+          "str_sp": "自由高跟鞋（双）"
         },
         "description": "The shoes of patriotic ladies around the nation, these open-toed heels glitter with small golden stars embroidered along their sides, with a pair of decorative flaps styled with the image of a miniature American flag unfurling from each ankle, like wings.  The footwear's heels consist of an adorably tiny reproduction of the Statue of Liberty situated beneath each sole, with their arms razed and supporting the shoe's heels.  Each of the statues' dresses is inscribed with the legend, \"America Gives You Wings!\""
       }
@@ -3469,7 +3469,7 @@
       {
         "id": "generic_knee_high_boots",
         "name": {
-          "str_sp": "knee-high boots (pair)"
+          "str_sp": "及膝靴（双）"
         },
         "description": "Very long leather boots that cover the lower legs, they are cumbersome to wear.",
         "weight": 10
@@ -3477,7 +3477,7 @@
       {
         "id": "jackboots",
         "name": {
-          "str_sp": "jackboots (pair)"
+          "str_sp": "长筒军靴（双）"
         },
         "description": "A pair of sturdy, over-the-knee, laceless boots fitted with a rubberized sole: these imposing combat boots provide good traction despite their encumbering nature.  Most commonly associated with totalitarian regimes due to their use by Nazi soldiers, this style of boot is warm, protective, and produces a deeply satisfying sound while marching.",
         "weight": 10
@@ -3485,7 +3485,7 @@
       {
         "id": "chelsea_boots",
         "name": {
-          "str_sp": "Chelsea boots (pair)"
+          "str_sp": "切尔西靴（双）"
         },
         "description": "A pair of knee-length, laceless boots formed from calfskin with an elastic side panel that's designed to stretch away to facilitate simple donning and doffing, these stylish stompers are a time-old gift from Victorian-age England.  Intended for you to fashionably saunter down roadways rather than sprint for your life, this style of boot became a style staple within London during the 1960s, where they were synonymous with the mod crowd.",
         "weight": 10
@@ -5930,7 +5930,7 @@
       {
         "id": "stockings_black",
         "name": {
-          "str_sp": "black stockings (pair)"
+          "str_sp": "黑色长袜（双）"
         },
         "description": "This one is colored black.",
         "weight": 140,
@@ -5940,7 +5940,7 @@
       {
         "id": "stockings_white",
         "name": {
-          "str_sp": "white stockings (pair)"
+          "str_sp": "白色长袜（双）"
         },
         "description": "This one is colored white.",
         "weight": 70,
@@ -5950,7 +5950,7 @@
       {
         "id": "stockings_white_striped",
         "name": {
-          "str_sp": "striped stockings (pair)"
+          "str_sp": "条纹长袜（双）"
         },
         "description": "This one is black, with white stripes.  Or is it white with black stripes?",
         "weight": 45,
@@ -5960,7 +5960,7 @@
       {
         "id": "stockings_red",
         "name": {
-          "str_sp": "red stockings (pair)"
+          "str_sp": "红色长袜（双）"
         },
         "description": "This one is colored red.",
         "weight": 30,
@@ -5970,7 +5970,7 @@
       {
         "id": "stockings_red_polka_dot",
         "name": {
-          "str_sp": "red polka dot stockings (pair)"
+          "str_sp": "红色波点长袜（双）"
         },
         "description": "This one is colored red with a polka dot pattern.",
         "weight": 45,
@@ -5980,7 +5980,7 @@
       {
         "id": "stockings_red_floral",
         "name": {
-          "str_sp": "red floral stockings (pair)"
+          "str_sp": "红色花卉长袜（双）"
         },
         "description": "This one is colored in various shades of red with a floral pattern.",
         "weight": 40,
@@ -5990,7 +5990,7 @@
       {
         "id": "stockings_yellow",
         "name": {
-          "str_sp": "yellow stockings (pair)"
+          "str_sp": "黄色长袜（双）"
         },
         "description": "This one is colored yellow.",
         "weight": 10,
@@ -6000,7 +6000,7 @@
       {
         "id": "stockings_green",
         "name": {
-          "str_sp": "green stockings (pair)"
+          "str_sp": "绿色长袜（双）"
         },
         "description": "This one is colored green.",
         "weight": 40,
@@ -6010,7 +6010,7 @@
       {
         "id": "stockings_orange_striped",
         "name": {
-          "str_sp": "orange striped stockings (pair)"
+          "str_sp": "橙色条纹长袜（双）"
         },
         "description": "This one is colored orange with a striped pattern.",
         "weight": 45,
@@ -6020,7 +6020,7 @@
       {
         "id": "stockings_blue",
         "name": {
-          "str_sp": "blue stockings (pair)"
+          "str_sp": "蓝色长袜（双）"
         },
         "description": "This one is colored blue.",
         "weight": 60,
@@ -6030,7 +6030,7 @@
       {
         "id": "stockings_blue_striped",
         "name": {
-          "str_sp": "blue striped stockings (pair)"
+          "str_sp": "蓝色条纹长袜（双）"
         },
         "description": "This one is colored blue and white with a striped pattern.",
         "weight": 20,
@@ -6040,7 +6040,7 @@
       {
         "id": "stockings_blue_floral",
         "name": {
-          "str_sp": "blue floral stockings (pair)"
+          "str_sp": "蓝色花卉长袜（双）"
         },
         "description": "This one is colored in various shades of blue with a floral pattern.",
         "weight": 40,
@@ -6050,7 +6050,7 @@
       {
         "id": "stockings_blue_checkered",
         "name": {
-          "str_sp": "blue checkered stockings (pair)"
+          "str_sp": "蓝色格纹长袜（双）"
         },
         "description": "This one is colored blue and black with a checkered pattern.",
         "weight": 20,
@@ -6060,7 +6060,7 @@
       {
         "id": "stockings_purple",
         "name": {
-          "str_sp": "purple stockings (pair)"
+          "str_sp": "紫色长袜（双）"
         },
         "description": "This one is colored purple.",
         "weight": 50,
@@ -6070,7 +6070,7 @@
       {
         "id": "stockings_purple_striped",
         "name": {
-          "str_sp": "purple striped stockings (pair)"
+          "str_sp": "紫色条纹长袜（双）"
         },
         "description": "This one is colored purple and white with a striped pattern.",
         "weight": 50,
@@ -6080,7 +6080,7 @@
       {
         "id": "stockings_purple_polka_dot",
         "name": {
-          "str_sp": "purple polka dot stockings (pair)"
+          "str_sp": "紫色波点长袜（双）"
         },
         "description": "This one is colored purple with a polka dot pattern.",
         "weight": 35,
@@ -6090,7 +6090,7 @@
       {
         "id": "stockings_purple_floral",
         "name": {
-          "str_sp": "purple floral stockings (pair)"
+          "str_sp": "紫色花卉长袜（双）"
         },
         "description": "This one is colored in various shades of purple with a floral pattern.",
         "weight": 40,
@@ -6100,7 +6100,7 @@
       {
         "id": "stockings_pink",
         "name": {
-          "str_sp": "pink stockings (pair)"
+          "str_sp": "粉色长袜（双）"
         },
         "description": "This one is colored pink.",
         "weight": 35,
@@ -6110,7 +6110,7 @@
       {
         "id": "stockings_pink_striped",
         "name": {
-          "str_sp": "pink striped stockings (pair)"
+          "str_sp": "粉色条纹长袜（双）"
         },
         "description": "This one is colored pink and white with a striped pattern.",
         "weight": 45,
@@ -6120,7 +6120,7 @@
       {
         "id": "stockings_pink_polka_dot",
         "name": {
-          "str_sp": "pink polka dot stockings (pair)"
+          "str_sp": "粉色波点长袜（双）"
         },
         "description": "This one is colored pink with a polka dot pattern.",
         "weight": 35,
@@ -6130,7 +6130,7 @@
       {
         "id": "stockings_green_striped",
         "name": {
-          "str_sp": "green striped stockings (pair)"
+          "str_sp": "绿色条纹长袜（双）"
         },
         "description": "This one is colored green and white with a striped pattern.",
         "weight": 40,
@@ -6140,7 +6140,7 @@
       {
         "id": "stockings_gray_striped",
         "name": {
-          "str_sp": "gray striped stockings (pair)"
+          "str_sp": "灰色条纹长袜（双）"
         },
         "description": "This one is colored gray and white with a striped pattern.",
         "weight": 55,
@@ -6150,7 +6150,7 @@
       {
         "id": "stockings_brown",
         "name": {
-          "str_sp": "brown stockings (pair)"
+          "str_sp": "棕色长袜（双）"
         },
         "description": "This one is colored brown.",
         "weight": 80,
@@ -6160,7 +6160,7 @@
       {
         "id": "stockings_brown_polka_dot",
         "name": {
-          "str_sp": "brown polka dot stockings (pair)"
+          "str_sp": "棕色波点长袜（双）"
         },
         "description": "This one is colored brown with a polka dot pattern.",
         "weight": 20,
@@ -6170,7 +6170,7 @@
       {
         "id": "stockings_pride_default",
         "name": {
-          "str_sp": "pride flag stockings (pair)"
+          "str_sp": "彩虹旗长袜（双）"
         },
         "description": "This one has patterns akin to the pride flag.",
         "weight": 80,
@@ -6180,7 +6180,7 @@
       {
         "id": "stockings_pride_lesbian",
         "name": {
-          "str_sp": "lesbian flag stockings (pair)"
+          "str_sp": "女同旗长袜（双）"
         },
         "description": "This one has patterns akin to the lesbian flag.",
         "weight": 75,
@@ -6190,7 +6190,7 @@
       {
         "id": "stockings_pride_bisexual",
         "name": {
-          "str_sp": "bisexual flag stockings (pair)"
+          "str_sp": "双性恋旗长袜（双）"
         },
         "description": "This one has patterns akin to the bisexual flag.",
         "weight": 45,
@@ -6200,7 +6200,7 @@
       {
         "id": "stockings_pride_transgender",
         "name": {
-          "str_sp": "transgender flag stockings (pair)"
+          "str_sp": "跨性别旗长袜（双）"
         },
         "description": "This one has patterns akin to the transgender flag.",
         "weight": 90,
@@ -6210,7 +6210,7 @@
       {
         "id": "stockings_pride_asexual",
         "name": {
-          "str_sp": "asexual flag stockings (pair)"
+          "str_sp": "无性恋旗长袜（双）"
         },
         "description": "This one has patterns akin to the asexual flag.",
         "weight": 75,
@@ -6220,7 +6220,7 @@
       {
         "id": "stockings_pride_aromantic",
         "name": {
-          "str_sp": "aromantic flag stockings (pair)"
+          "str_sp": "无浪漫倾向旗长袜（双）"
         },
         "description": "This one has patterns akin to the aromantic flag.",
         "weight": 65,
@@ -6230,7 +6230,7 @@
       {
         "id": "stockings_pride_pansexual",
         "name": {
-          "str_sp": "pansexual flag stockings (pair)"
+          "str_sp": "泛性恋旗长袜（双）"
         },
         "description": "This one has patterns akin to the pansexual flag.",
         "weight": 75,
@@ -6240,7 +6240,7 @@
       {
         "id": "stockings_pride_genderqueer",
         "name": {
-          "str_sp": "genderqueer flag stockings (pair)"
+          "str_sp": "性别酷儿旗长袜（双）"
         },
         "description": "This one has patterns akin to the genderqueer flag.",
         "weight": 55,
@@ -6250,7 +6250,7 @@
       {
         "id": "stockings_pride_genderfluid",
         "name": {
-          "str_sp": "genderfluid flag stockings (pair)"
+          "str_sp": "流性别旗长袜（双）"
         },
         "description": "This one has patterns akin to the genderfluid flag.",
         "weight": 45,
@@ -6260,7 +6260,7 @@
       {
         "id": "stockings_pride_agender",
         "name": {
-          "str_sp": "agender flag stockings (pair)"
+          "str_sp": "无性别旗长袜（双）"
         },
         "description": "This one has patterns akin to the agender flag.",
         "weight": 45,
@@ -6270,7 +6270,7 @@
       {
         "id": "stockings_pride_nonbinary",
         "name": {
-          "str_sp": "non-binary flag stockings (pair)"
+          "str_sp": "非二元性别旗长袜（双）"
         },
         "description": "This one has patterns akin to the non-binary flag.",
         "weight": 75,
@@ -6280,7 +6280,7 @@
       {
         "id": "stockings_pride_intersex",
         "name": {
-          "str_sp": "intersex flag stockings (pair)"
+          "str_sp": "间性旗长袜（双）"
         },
         "description": "This one has patterns akin to the intersex flag.",
         "weight": 55,
@@ -6290,7 +6290,7 @@
       {
         "id": "stockings_pride_polysexual",
         "name": {
-          "str_sp": "polysexual flag stockings (pair)"
+          "str_sp": "多性恋旗长袜（双）"
         },
         "description": "This one has patterns akin to the polysexual flag.",
         "weight": 25,

@@ -9,6 +9,7 @@
 - `data/json/items/comestibles`、`generic`、`melee`、`tool` 中少量完全未翻译的普通可见物品名称。
 - 覆盖 107 个鞋袜、足部护具及成对脚部装备条目。
 - 例如 `socks (pair)` 已覆盖为 `袜子（双）`。
+- 覆盖鞋袜相关变体名称，例如 `blue striped stockings (pair)`。
 - 覆盖 53 个枪械与弹匣顶层名称，其中包括截图中的 `Glock 43` 与 `Glock 43 magazine`。
 - 覆盖 15 个通用物品名称，包括未装底火弹壳、长矛、糖衣花生、细切薯条和改装无线电。
 
