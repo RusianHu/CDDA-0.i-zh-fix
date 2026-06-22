@@ -8,7 +8,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克紧凑型手枪"
+      "str_sp": "格洛克紧凑型手枪"
     },
     "description": "A small pistol accepting Glock magazines and chambered in 10mm.  Because of its size, it is easy to carry, but it has rather fierce recoil.",
     "variant_type": "gun",
@@ -76,7 +76,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克手枪"
+      "str_sp": "格洛克手枪"
     },
     "description": "A semi-automatic pistol chambered in 10mm and accepting Glock magazines.",
     "variant_type": "gun",
@@ -143,7 +143,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克狩猎型手枪"
+      "str_sp": "格洛克狩猎型手枪"
     },
     "description": "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use.  It also features Glock's Modular Optic System, making aftermarket optics much easier to mount.",
     "variant_type": "gun",
@@ -178,7 +178,7 @@
       "so, I'm calling it a glock smg."
     ],
     "name": {
-      "str": "格洛克冲锋枪"
+      "str_sp": "格洛克冲锋枪"
     },
     "description": "A submachine gun chambered in 10mm, accepting Glock magazines.",
     "variant_type": "gun",
@@ -242,7 +242,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 44 手枪"
+      "str_sp": "格洛克 44 手枪"
     },
     "description": "A Glock chambered in .22LR.  While effective against paper targets and rodents, it will struggle against the walking dead.",
     "weight": "358 g",
@@ -301,7 +301,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 42 手枪"
+      "str_sp": "格洛克 42 手枪"
     },
     "description": "The smallest gun Glock produces, chambered in .380 ACP.  Even though it is small a small gun that shoots a weak cartridge, it is still effective against small game, paper targets, and zombified children",
     "weight": "345 g",
@@ -513,7 +513,7 @@
       "so, I'm calling it a glock smg."
     ],
     "name": {
-      "str": "格洛克冲锋枪"
+      "str_sp": "格洛克冲锋枪"
     },
     "description": "A submachine gun chambered in .45 ACP, accepting Glock magazines.",
     "variant_type": "gun",
@@ -613,7 +613,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克手枪"
+      "str_sp": "格洛克手枪"
     },
     "description": "A semi-automatic pistol chambered in .45 ACP and accepting Glock magazines.",
     "variant_type": "gun",
@@ -680,7 +680,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 30 手枪"
+      "str_sp": "格洛克 30 手枪"
     },
     "description": "A Glock compact pistol chambered in .45 ACP.  Accepts the same magazines as its older brothers.",
     "weight": "675 g",
@@ -736,7 +736,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 36 手枪"
+      "str_sp": "格洛克 36 手枪"
     },
     "description": "A Glock subcompact pistol chambered in .45 ACP.  Due to its slim construction, it only accepts Glock 36 magazines.",
     "weight": "565 g",
@@ -790,7 +790,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克便携手枪"
+      "str_sp": "格洛克便携手枪"
     },
     "description": "A common 9x19mm pistol of modest proportions, produced by the popular Glock gun company and mainly built from plastic polymers.  Making use of aptly-named Glock magazines and being a decades-long popular concealed carry option for civilians due to its small size, it is a tried, tested, and reliable design.",
     "variant_type": "gun",
@@ -883,7 +883,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 26 手枪"
+      "str_sp": "格洛克 26 手枪"
     },
     "description": "A Glock subcompact pistol chambered in 9mm Luger.  Despite its tiny size, it can fit the magazines of its larger brothers.",
     "weight": "550 g",
@@ -943,7 +943,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 34 手枪"
+      "str_sp": "格洛克 34 手枪"
     },
     "description": "A large, stylish Glock chambered in 9mm.  Developed for accuracy, this pistol is used by competition shooters, law enforcement, and even the Baba Yaga.",
     "weight": "655 g",
@@ -1006,7 +1006,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 43 手枪"
+      "str_sp": "格洛克 43 手枪"
     },
     "description": "A 9x19mm Glock of diminutive proportions.  Unfortunately it is incompatible with other 9mm Glock magazines.",
     "weight": "460 g",
@@ -1043,7 +1043,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 43X 手枪"
+      "str_sp": "格洛克 43X 手枪"
     },
     "description": "A 9mm compact Glock.  Despite its name, it does not accept the magazines of the Glock 43.",
     "weight": "461 g",
@@ -1097,7 +1097,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克 48 手枪"
+      "str_sp": "格洛克 48 手枪"
     },
     "description": "A 9mm, slimline Glock.  Designed for concealed carry, and accepts the magazine from a Glock 43x, but not the base 43.",
     "weight": "524 g",
@@ -1151,7 +1151,7 @@
       "GUN"
     ],
     "name": {
-      "str": "折叠式格洛克卡宾枪"
+      "str_sp": "折叠式格洛克卡宾枪"
     },
     "description": "With its claim to fame being its ease of portability when compared to other conventional rifles and carbines, this is a uniquely-designed pistol caliber carbine sporting an integral folding mechanism and chambered for 9x19mm cartridges, making use of regular Glock compatible magazines.  With its mechanism engaged, the barrel assembly swings rearwards and causes the firearm to fold to half its regular length, packing up into a very compact package with ergonomics unfortunately having to take a backseat to allow for the weapon's extreme portability.  With a mainly polymer constructed receiver, the carbine is relatively light and incredibly transportable when fully folded.",
     "variant_type": "gun",
@@ -1247,7 +1247,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克勤务手枪"
+      "str_sp": "格洛克勤务手枪"
     },
     "description": "Designed for all shooters, this offering from the Glock gun company is a full-sized 9x19mm pistol marketed towards law-enforcement and military users.  Because of the long magazine well, it can't fit magazines shorter than the standard 17-round ones.",
     "variant_type": "gun",
@@ -1321,7 +1321,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克全自动手枪"
+      "str_sp": "格洛克全自动手枪"
     },
     "description": "A military, fully automatic capable version of the popular 9x19mm handguns produced by the Glock arms company, this machine pistol makes use of Glock magazines.  The weapon has had its barrel modified to lessen recoil, a useful feature considering its high rate of fire and lack of a default buttstock.",
     "variant_type": "gun",
@@ -1363,7 +1363,7 @@
       "GUN"
     ],
     "name": {
-      "str": "格洛克卡宾枪"
+      "str_sp": "格洛克卡宾枪"
     },
     "description": "A lightweight pistol caliber carbine, chambered in 9mm and accepting Glock magazines.",
     "variant_type": "gun",
@@ -1456,7 +1456,7 @@
       "GUN"
     ],
     "name": {
-      "str": "小型猎物单发步枪"
+      "str_sp": "小型猎物单发步枪"
     },
     "description": "A .22 Long Rifle rifle that chambers just one shot.  Its main use is for the youth, and not much else.  God help you if you hope to use this thing to a meaningful effect.",
     "variant_type": "gun",
@@ -1546,7 +1546,7 @@
       "GUN"
     ],
     "name": {
-      "str": "猎用步枪"
+      "str_sp": "猎用步枪"
     },
     "description": "A very accurate rifle chambered for the powerful .308 round.",
     "variant_type": "gun",
@@ -1628,7 +1628,7 @@
       "GUN"
     ],
     "name": {
-      "str": "微型隐蔽携带手枪"
+      "str_sp": "微型隐蔽携带手枪"
     },
     "description": "A very small pistol chambered in .32 ACP.  Due to its intended role, it lacks any sights.",
     "variant_type": "gun",
@@ -1694,7 +1694,7 @@
       "GUN"
     ],
     "name": {
-      "str": "5发自动装填战斗霰弹枪"
+      "str_sp": "5发自动装填战斗霰弹枪"
     },
     "description": "A semi-automatic smooth-bore shotgun, this weapon features respectable ergonomics and room for 5 shotshells within its tubular magazine.  Suitable both for competition shooting and offensive combat roles, this firearm is faster to shoot than a traditional pump-action model, with the caveat that it's harder to maintain than its manually operated siblings as it relies on an internal gas system to cycle rounds rather than the user's own physical input.",
     "variant_type": "gun",
@@ -1781,7 +1781,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 10mm 15发弹匣"
+      "str_sp": "格洛克 10mm 15发弹匣"
     },
     "description": "A compact light-weight steel and polymer magazine for use with Glock pistols chambered for 10mm Auto.",
     "weight": "70 g",
@@ -1819,7 +1819,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 10mm 10发弹匣"
+      "str_sp": "格洛克 10mm 10发弹匣"
     },
     "description": "A compact light-weight steel and polymer magazine for use with Glock pistols chambered for 10mm Auto, limited to 10 rounds.",
     "copy-from": "glock_20mag",
@@ -1841,7 +1841,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 10mm 10发便携弹匣"
+      "str_sp": "格洛克 10mm 10发便携弹匣"
     },
     "description": "A stubby steel and polymer magazine for use with the compact Glock pistol.  It is too short to insert into most other 10mm Glock pattern magwells.",
     "variant_type": "gun",
@@ -1889,7 +1889,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 10mm 30发弹匣"
+      "str_sp": "格洛克 10mm 30发弹匣"
     },
     "description": "A 30-round plastic and steel box 10mm Auto magazine for use with Glock pistols and submachine guns chambered in 10mm.",
     "variant_type": "gun",
@@ -1938,7 +1938,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 44 10发弹匣"
+      "str_sp": "格洛克 44 10发弹匣"
     },
     "description": "A compact, light-weight polymer magazine for use with the Glock 44.",
     "weight": "57 g",
@@ -1976,7 +1976,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "微型隐蔽携带手枪弹匣"
+      "str_sp": "微型隐蔽携带手枪弹匣"
     },
     "description": "A 6 round magazine for the micro conceal carry pistol.",
     "variant_type": "gun",
@@ -2024,7 +2024,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 42 弹匣"
+      "str_sp": "格洛克 42 弹匣"
     },
     "description": "A standard 6-round capacity magazine for the Glock 42.",
     "weight": "45 g",
@@ -2062,7 +2062,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 .40 S&W 22发弹匣"
+      "str_sp": "格洛克 .40 S&W 22发弹匣"
     },
     "description": "An extended 22-round magazine for use with Glock pistols chambered for .40 S&W.",
     "weight": "97 g",
@@ -2101,7 +2101,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 .40 S&W 15发弹匣"
+      "str_sp": "格洛克 .40 S&W 15发弹匣"
     },
     "description": "A compact, light-weight polymer magazine for use with Glock pistols chambered for .40 S&W.",
     "weight": "78 g",
@@ -2137,7 +2137,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 .40 S&W 10发弹匣"
+      "str_sp": "格洛克 .40 S&W 10发弹匣"
     },
     "description": "A compact, light-weight polymer magazine for use with Glock pistols chambered for .40 S&W.  It has been limited to 10 rounds to comply with firearm laws.",
     "copy-from": "glock40mag",
@@ -2158,7 +2158,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 27 弹匣"
+      "str_sp": "格洛克 27 弹匣"
     },
     "description": "A compact, light-weight polymer magazine with a 9 round capacity for use with Glock pistols chambered for .40 S&W.",
     "weight": "55 g",
@@ -2196,7 +2196,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克冲锋枪 30发弹匣"
+      "str_sp": "格洛克冲锋枪 30发弹匣"
     },
     "description": "An aftermarket 30-round polymer and steel box magazine designed for use with the Glock pistol.",
     "variant_type": "gun",
@@ -2245,7 +2245,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 .45 13发弹匣"
+      "str_sp": "格洛克 .45 13发弹匣"
     },
     "description": "A 13-round magazine for use with Glock firearms chambered in .45 ACP.",
     "variant_type": "gun",
@@ -2293,7 +2293,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 .45 10发弹匣"
+      "str_sp": "格洛克 .45 10发弹匣"
     },
     "description": "A 10-round magazine for use with Glock firearms chambered in .45 ACP.",
     "copy-from": "glock_21mag",
@@ -2316,7 +2316,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 .45 26发弹匣"
+      "str_sp": "格洛克 .45 26发弹匣"
     },
     "description": "A 26-round magazine for use with Glock firearms chambered in .45 ACP.",
     "variant_type": "gun",
@@ -2363,7 +2363,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 36 弹匣"
+      "str_sp": "格洛克 36 弹匣"
     },
     "description": "A 6-round magazine for the Glock 36. Incompatible with other .45 Glocks",
     "weight": "70 g",
@@ -2387,7 +2387,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 33发弹匣"
+      "str_sp": "格洛克 9x19mm 33发弹匣"
     },
     "description": "An extended 33-round polymer magazine for use with Glock compatible firearms.",
     "weight": "124 g",
@@ -2426,7 +2426,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 15发弹匣"
+      "str_sp": "格洛克 9x19mm 15发弹匣"
     },
     "description": "A compact, light-weight polymer magazine for use with Glock compatible firearms.",
     "weight": "70 g",
@@ -2464,7 +2464,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 43 弹匣"
+      "str_sp": "格洛克 43 弹匣"
     },
     "description": "A small 6-round magazine for the Glock 43.  Incompatible with the Glock 43X.",
     "weight": "50 g",
@@ -2501,7 +2501,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 43X/48 弹匣"
+      "str_sp": "格洛克 43X/48 弹匣"
     },
     "description": "A 10-round magazine for the Glock 43X and the Glock 48.  Incompatible with the Glock 43.",
     "weight": "65 g",
@@ -2538,7 +2538,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 19 9x19mm 10发弹匣"
+      "str_sp": "格洛克 19 9x19mm 10发弹匣"
     },
     "description": "A compact, light-weight polymer magazine for use with the Glock 19, which has been limited to 10 rounds to comply with firearm regulations.",
     "pocket_data": [
@@ -2559,7 +2559,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 17发弹匣"
+      "str_sp": "格洛克 9x19mm 17发弹匣"
     },
     "description": "Made for the Glock 17, this magazine holds 17 rounds.",
     "weight": "80 g",
@@ -2598,7 +2598,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 10发弹匣"
+      "str_sp": "格洛克 9x19mm 10发弹匣"
     },
     "description": "Made for the Glock 17, this magazine holds 10 rounds to comply with firearm regulations.",
     "pocket_data": [
@@ -2619,7 +2619,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 22发弹匣"
+      "str_sp": "格洛克 9x19mm 22发弹匣"
     },
     "description": "Made for the Glock 17, this cheap-looking aftermarket magazine holds 22 rounds.",
     "weight": "108 g",
@@ -2657,7 +2657,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 50发弹鼓"
+      "str_sp": "格洛克 9x19mm 50发弹鼓"
     },
     "description": "Made to fit most Glock pistols.  This drum magazine holds 50 rounds.",
     "weight": "491 g",
@@ -2696,7 +2696,7 @@
       "MAGAZINE"
     ],
     "name": {
-      "str": "格洛克 9x19mm 100发双联弹鼓"
+      "str_sp": "格洛克 9x19mm 100发双联弹鼓"
     },
     "description": "Made to fit most Glock pistols.  This double drum magazine holds 100 rounds.",
     "weight": "1000 g",

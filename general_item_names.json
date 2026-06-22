@@ -68,7 +68,7 @@
     "looks_like": "9mm_casing",
     "type": "ITEM",
     "name": {
-      "str": "无底火 4.6x30mm 弹壳"
+      "str_sp": "无底火 4.6x30mm 弹壳"
     },
     "description": "An empty casing from a 4.6x30mm round, with its primer removed.",
     "weight": "2 g",
@@ -80,7 +80,7 @@
     "looks_like": "50beowulf_casing",
     "type": "ITEM",
     "name": {
-      "str": "无底火 .458 WM 弹壳"
+      "str_sp": "无底火 .458 WM 弹壳"
     },
     "description": "An empty casing from a .458 Winchester Magnum round, with its primer removed.",
     "weight": "13 g",
@@ -92,7 +92,7 @@
     "looks_like": "9mm_casing",
     "type": "ITEM",
     "name": {
-      "str": "无底火 7.62x25mm 弹壳"
+      "str_sp": "无底火 7.62x25mm 弹壳"
     },
     "description": "An empty casing from a 7.62x25mm round, with its primer removed.",
     "weight": "4 g",
@@ -104,7 +104,7 @@
     "looks_like": "9mm_casing",
     "type": "ITEM",
     "name": {
-      "str": "无底火 .357 马格南弹壳"
+      "str_sp": "无底火 .357 马格南弹壳"
     },
     "description": "An empty casing from a .357 magnum round, with its primer removed.",
     "weight": "3 g",
@@ -116,7 +116,7 @@
     "looks_like": "9mm_casing",
     "type": "ITEM",
     "name": {
-      "str": "无底火 9x18mm 弹壳"
+      "str_sp": "无底火 9x18mm 弹壳"
     },
     "description": "An empty casing from a 9x18mm round, with its primer removed.",
     "weight": "3 g",
@@ -128,7 +128,7 @@
     "looks_like": "223_casing",
     "type": "ITEM",
     "name": {
-      "str": "无底火 .300 BLK 弹壳"
+      "str_sp": "无底火 .300 BLK 弹壳"
     },
     "description": "An empty casing from a .300 AAC Blackout round, with its primer removed.",
     "weight": "6 g",
@@ -139,7 +139,7 @@
     "type": "ITEM",
     "category": "weapons",
     "name": {
-      "str": "木制长矛"
+      "str_sp": "木制长矛"
     },
     "description": "A medieval weapon consisting of a very long wooden shaft with a fire-hardened point.",
     "weight": "2300 g",
@@ -199,7 +199,7 @@
     "type": "ITEM",
     "category": "weapons",
     "name": {
-      "str": "铜制长矛"
+      "str_sp": "铜制长矛"
     },
     "description": "A medieval weapon consisting of a very long wooden shaft tipped with a copper spearhead.",
     "weight": "2500 g",
@@ -263,7 +263,7 @@
     "id": "pike_bronze",
     "type": "ITEM",
     "name": {
-      "str": "青铜长矛"
+      "str_sp": "青铜长矛"
     },
     "description": "A medieval weapon consisting of a very long wooden shaft tipped with a bronze spearhead.",
     "weight": "2500 g",
@@ -328,7 +328,7 @@
     "id": "pike",
     "type": "ITEM",
     "name": {
-      "str": "长矛"
+      "str_sp": "长矛"
     },
     "description": "A medieval weapon consisting of a very long wooden shaft tipped with a steel spearhead.",
     "weight": "2500 g",
@@ -393,7 +393,7 @@
     "copy-from": "pike",
     "type": "ITEM",
     "name": {
-      "str": "长矛"
+      "str_sp": "长矛"
     },
     "description": "A dull, cheaply made replica of a medieval weapon consisting of a very long wooden shaft tipped with an iron spearhead.",
     "proportional": {
@@ -431,7 +431,7 @@
     "copy-from": "pike",
     "type": "ITEM",
     "name": {
-      "str": "长矛"
+      "str_sp": "长矛"
     },
     "description": "A medieval weapon consisting of a very long wooden shaft tipped with an iron spearhead.  The head seems to be pretty dull, and the whole thing feels poorly made.",
     "proportional": {
@@ -459,7 +459,7 @@
       "TOOL"
     ],
     "name": {
-      "str": "改装无线电"
+      "str_sp": "改装无线电"
     },
     "description": "A modified portable radio.  A mess of metal and wires has been attached to the back and the frequency dial has been removed.",
     "//": "Slightly heavier and bulkier since it has had a block attached to the back",
