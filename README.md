@@ -14,4 +14,6 @@
 
 ## 实现方式
 
-CDDA 随包 mod `alt_map_key` 已使用同 ID + `copy-from` 覆盖原对象字段。本 mod 采用同样方式，只替换 `name` 字段，其他物品属性继承原版定义。
+本 mod 使用同 ID `ITEM` 条目直接覆盖 `name` 字段，不写 `copy-from`。
+
+注意：`ITEM` 条目不能写成 `id` 与 `copy-from` 相同的自引用形式，否则会触发 `JSON contains circular dependency`，导致该对象被游戏丢弃。

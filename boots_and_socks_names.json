@@ -2,643 +2,536 @@
   {
     "type": "ITEM",
     "id": "bastsandals",
-    "copy-from": "bastsandals",
     "name": { "str_sp": "草绳凉鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots",
-    "copy-from": "boots",
     "name": { "str_sp": "靴子（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots",
-    "copy-from": "xl_boots",
     "name": { "str_sp": "靴子（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots",
-    "copy-from": "xs_boots",
     "name": { "str_sp": "靴子（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_bone",
-    "copy-from": "boots_bone",
     "name": { "str_sp": "神秘靴子（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_bunker",
-    "copy-from": "boots_bunker",
     "name": { "str_sp": "消防靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_chitin",
-    "copy-from": "boots_chitin",
     "name": { "str_sp": "几丁质靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_chitin",
-    "copy-from": "xl_boots_chitin",
     "name": { "str_sp": "几丁质靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_chitin",
-    "copy-from": "xs_boots_chitin",
     "name": { "str_sp": "几丁质靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_acidchitin",
-    "copy-from": "boots_acidchitin",
     "name": { "str_sp": "生物硅化几丁质靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_acidchitin",
-    "copy-from": "xl_boots_acidchitin",
     "name": { "str_sp": "生物硅化几丁质靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_acidchitin",
-    "copy-from": "xs_boots_acidchitin",
     "name": { "str_sp": "生物硅化几丁质靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_combat",
-    "copy-from": "boots_combat",
     "name": { "str_sp": "战斗靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_denim",
-    "copy-from": "boots_denim",
     "name": { "str_sp": "牛仔布靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "foot_protectors_eod",
-    "copy-from": "foot_protectors_eod",
     "name": { "str_sp": "排爆护脚（双）" }
   },
   {
     "type": "ITEM",
     "id": "toecaps",
-    "copy-from": "toecaps",
     "name": { "str_sp": "护趾套（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_fur",
-    "copy-from": "boots_fur",
     "name": { "str_sp": "毛皮靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_fur",
-    "copy-from": "xl_boots_fur",
     "name": { "str_sp": "毛皮靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_fur",
-    "copy-from": "xs_boots_fur",
     "name": { "str_sp": "毛皮靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_faux_fur",
-    "copy-from": "boots_faux_fur",
     "name": { "str_sp": "人造毛靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_faux_fur",
-    "copy-from": "xl_boots_faux_fur",
     "name": { "str_sp": "人造毛靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_faux_fur",
-    "copy-from": "xs_boots_faux_fur",
     "name": { "str_sp": "人造毛靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_hiking",
-    "copy-from": "boots_hiking",
     "name": { "str_sp": "徒步靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_larmor",
-    "copy-from": "boots_larmor",
     "name": { "str_sp": "皮甲靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_larmor",
-    "copy-from": "xl_boots_larmor",
     "name": { "str_sp": "皮甲靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_larmor",
-    "copy-from": "xs_boots_larmor",
     "name": { "str_sp": "皮甲靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_plate",
-    "copy-from": "boots_plate",
     "name": { "str_sp": "装甲靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_plate",
-    "copy-from": "xl_boots_plate",
     "name": { "str_sp": "装甲靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_plate",
-    "copy-from": "xs_boots_plate",
     "name": { "str_sp": "装甲靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_rubber",
-    "copy-from": "boots_rubber",
     "name": { "str_sp": "橡胶靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_scrap",
-    "copy-from": "boots_scrap",
     "name": { "str_sp": "废料靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_scrap",
-    "copy-from": "xl_boots_scrap",
     "name": { "str_sp": "废料靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_scrap",
-    "copy-from": "xs_boots_scrap",
     "name": { "str_sp": "废料靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "sabaton_metal_sheets",
-    "copy-from": "sabaton_metal_sheets",
     "name": { "str_sp": "金属板足铠（双）" }
   },
   {
     "type": "ITEM",
     "id": "ch_sabaton_metal_sheets",
-    "copy-from": "ch_sabaton_metal_sheets",
     "name": { "str_sp": "硬化钢板足铠（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_steel",
-    "copy-from": "boots_steel",
     "name": { "str_sp": "钢头靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "sneakers_steel",
-    "copy-from": "sneakers_steel",
     "name": { "str_sp": "钢头运动鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_western",
-    "copy-from": "boots_western",
     "name": { "str_sp": "牛仔靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "boots_winter",
-    "copy-from": "boots_winter",
     "name": { "str_sp": "冬靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_boots_winter",
-    "copy-from": "xl_boots_winter",
     "name": { "str_sp": "冬靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_boots_winter",
-    "copy-from": "xs_boots_winter",
     "name": { "str_sp": "冬靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "cleats",
-    "copy-from": "cleats",
     "name": { "str_sp": "钉鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "golf_shoes",
-    "copy-from": "golf_shoes",
     "name": { "str_sp": "高尔夫鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "clogs",
-    "copy-from": "clogs",
     "name": { "str_sp": "木屐（双）" }
   },
   {
     "type": "ITEM",
     "id": "clownshoes",
-    "copy-from": "clownshoes",
     "name": { "str_sp": "小丑鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "dance_shoes",
-    "copy-from": "dance_shoes",
     "name": { "str_sp": "舞鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "dress_shoes",
-    "copy-from": "dress_shoes",
     "name": { "str_sp": "正装鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "flip_flops",
-    "copy-from": "flip_flops",
     "name": { "str_sp": "人字拖（双）" }
   },
   {
     "type": "ITEM",
     "id": "flip_flops_exp",
-    "copy-from": "flip_flops_exp",
     "name": { "str_sp": "昂贵的人字拖（双）" }
   },
   {
     "type": "ITEM",
     "id": "footrags",
-    "copy-from": "footrags",
     "name": { "str_sp": "裹脚布（双）" }
   },
   {
     "type": "ITEM",
     "id": "footrags_fur",
-    "copy-from": "footrags_fur",
     "name": { "str_sp": "毛皮裹脚（双）" }
   },
   {
     "type": "ITEM",
     "id": "footrags_faux_fur",
-    "copy-from": "footrags_faux_fur",
     "name": { "str_sp": "人造毛裹脚（双）" }
   },
   {
     "type": "ITEM",
     "id": "footrags_leather",
-    "copy-from": "footrags_leather",
     "name": { "str_sp": "皮革裹脚（双）" }
   },
   {
     "type": "ITEM",
     "id": "footrags_wool",
-    "copy-from": "footrags_wool",
     "name": { "str_sp": "羊毛裹脚（双）" }
   },
   {
     "type": "ITEM",
     "id": "geta",
-    "copy-from": "geta",
     "name": { "str_sp": "日式木屐（双）" }
   },
   {
     "type": "ITEM",
     "id": "heels",
-    "copy-from": "heels",
     "name": { "str_sp": "高跟鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "knee_high_boots",
-    "copy-from": "knee_high_boots",
     "name": { "str_sp": "及膝靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "motor_police_boots",
-    "copy-from": "motor_police_boots",
     "name": { "str_sp": "摩托警靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "leathersandals",
-    "copy-from": "leathersandals",
     "name": { "str_sp": "皮凉鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "lowtops",
-    "copy-from": "lowtops",
     "name": { "str_sp": "低帮网球鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "mocassins",
-    "copy-from": "mocassins",
     "name": { "str_sp": "软皮鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "motorbike_boots",
-    "copy-from": "motorbike_boots",
     "name": { "str_sp": "摩托靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "roller_blades",
-    "copy-from": "roller_blades",
     "name": { "str_sp": "直排轮滑鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "rollerskates",
-    "copy-from": "rollerskates",
     "name": { "str_sp": "双排轮滑鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "shoes_birchbark",
-    "copy-from": "shoes_birchbark",
     "name": { "str_sp": "桦树皮鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "shoes_bowling",
-    "copy-from": "shoes_bowling",
     "name": { "str_sp": "保龄球鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "shoes_denim",
-    "copy-from": "shoes_denim",
     "name": { "str_sp": "牛仔布运动鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "slippers",
-    "copy-from": "slippers",
     "name": { "str_sp": "拖鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "sneakers",
-    "copy-from": "sneakers",
     "name": { "str_sp": "运动鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "straw_sandals",
-    "copy-from": "straw_sandals",
     "name": { "str_sp": "草鞋（双）" }
   },
   {
     "type": "ITEM",
     "id": "thigh_high_boots",
-    "copy-from": "thigh_high_boots",
     "name": { "str_sp": "过膝靴（双）" }
   },
   {
     "type": "ITEM",
     "id": "roller_shoes_off",
-    "copy-from": "roller_shoes_off",
     "name": { "str_sp": "暴走鞋（收轮）（双）" }
   },
   {
     "type": "ITEM",
     "id": "roller_shoes_on",
-    "copy-from": "roller_shoes_on",
     "name": { "str_sp": "暴走鞋（放轮）（双）" }
   },
   {
     "type": "ITEM",
     "id": "chainmail_junk_feet",
-    "copy-from": "chainmail_junk_feet",
     "name": { "str_sp": "链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "lc_chainmail_feet",
-    "copy-from": "lc_chainmail_feet",
     "name": { "str_sp": "低碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_lc_chainmail_feet",
-    "copy-from": "xl_lc_chainmail_feet",
     "name": { "str_sp": "低碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_lc_chainmail_feet",
-    "copy-from": "xs_lc_chainmail_feet",
     "name": { "str_sp": "低碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "mc_chainmail_feet",
-    "copy-from": "mc_chainmail_feet",
     "name": { "str_sp": "中碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_mc_chainmail_feet",
-    "copy-from": "xl_mc_chainmail_feet",
     "name": { "str_sp": "中碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_mc_chainmail_feet",
-    "copy-from": "xs_mc_chainmail_feet",
     "name": { "str_sp": "中碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "hc_chainmail_feet",
-    "copy-from": "hc_chainmail_feet",
     "name": { "str_sp": "高碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_hc_chainmail_feet",
-    "copy-from": "xl_hc_chainmail_feet",
     "name": { "str_sp": "高碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_hc_chainmail_feet",
-    "copy-from": "xs_hc_chainmail_feet",
     "name": { "str_sp": "高碳钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "ch_chainmail_feet",
-    "copy-from": "ch_chainmail_feet",
     "name": { "str_sp": "硬化钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_ch_chainmail_feet",
-    "copy-from": "xl_ch_chainmail_feet",
     "name": { "str_sp": "硬化钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_ch_chainmail_feet",
-    "copy-from": "xs_ch_chainmail_feet",
     "name": { "str_sp": "硬化钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "qt_chainmail_feet",
-    "copy-from": "qt_chainmail_feet",
     "name": { "str_sp": "调质钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xl_qt_chainmail_feet",
-    "copy-from": "xl_qt_chainmail_feet",
     "name": { "str_sp": "调质钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "xs_qt_chainmail_feet",
-    "copy-from": "xs_qt_chainmail_feet",
     "name": { "str_sp": "调质钢链甲足胫甲（双）" }
   },
   {
     "type": "ITEM",
     "id": "nomex_socks",
-    "copy-from": "nomex_socks",
     "name": { "str_sp": "阻燃袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "xlnomex_socks",
-    "copy-from": "xlnomex_socks",
     "name": { "str_sp": "阻燃袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "xsnomex_socks",
-    "copy-from": "xsnomex_socks",
     "name": { "str_sp": "阻燃袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "socks",
-    "copy-from": "socks",
     "name": { "str_sp": "袜子（双）" }
   },
   {
     "type": "ITEM",
     "id": "xlsocks",
-    "copy-from": "xlsocks",
     "name": { "str_sp": "袜子（双）" }
   },
   {
     "type": "ITEM",
     "id": "xssocks",
-    "copy-from": "xssocks",
     "name": { "str_sp": "袜子（双）" }
   },
   {
     "type": "ITEM",
     "id": "socks_ankle",
-    "copy-from": "socks_ankle",
     "name": { "str_sp": "短袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "socks_bag",
-    "copy-from": "socks_bag",
     "name": { "str_sp": "袋制袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "socks_bowling",
-    "copy-from": "socks_bowling",
     "name": { "str_sp": "一次性保龄球袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "socks_wool",
-    "copy-from": "socks_wool",
     "name": { "str_sp": "羊毛袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "xlsocks_wool",
-    "copy-from": "xlsocks_wool",
     "name": { "str_sp": "羊毛袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "xssocks_wool",
-    "copy-from": "xssocks_wool",
     "name": { "str_sp": "羊毛袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "stockings",
-    "copy-from": "stockings",
     "name": { "str_sp": "长袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "stockings_tent_legs",
-    "copy-from": "stockings_tent_legs",
     "name": { "str_sp": "触手长袜（双）" }
   },
   {
     "type": "ITEM",
     "id": "tabi_dress",
-    "copy-from": "tabi_dress",
     "name": { "str_sp": "足袋（双）" }
   },
   {
     "type": "ITEM",
     "id": "tabi_gi",
-    "copy-from": "tabi_gi",
     "name": { "str_sp": "道服足袋（双）" }
   },
   {
     "type": "ITEM",
     "id": "jikatabi",
-    "copy-from": "jikatabi",
     "name": { "str_sp": "地下足袋（双）" }
   },
   {
     "type": "ITEM",
     "id": "jikatabi_sneakers",
-    "copy-from": "jikatabi_sneakers",
     "name": { "str_sp": "地下足袋运动鞋（双）" }
   }
 ]

@@ -2,337 +2,281 @@
   {
     "type": "ITEM",
     "id": "glock_29",
-    "copy-from": "glock_29",
     "name": { "str": "格洛克紧凑型手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_20",
-    "copy-from": "glock_20",
     "name": { "str": "格洛克手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_40",
-    "copy-from": "glock_40",
     "name": { "str": "格洛克狩猎型手枪" }
   },
   {
     "type": "ITEM",
     "id": "TDI_10",
-    "copy-from": "TDI_10",
     "name": { "str": "格洛克冲锋枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_44",
-    "copy-from": "glock_44",
     "name": { "str": "格洛克 44 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_42",
-    "copy-from": "glock_42",
     "name": { "str": "格洛克 42 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_22",
-    "copy-from": "glock_22",
     "name": { "str_sp": "格洛克 22 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_23",
-    "copy-from": "glock_23",
     "name": { "str_sp": "格洛克 23 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_27",
-    "copy-from": "glock_27",
     "name": { "str_sp": "格洛克 27 手枪" }
   },
   {
     "type": "ITEM",
     "id": "TDI",
-    "copy-from": "TDI",
     "name": { "str": "格洛克冲锋枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_21",
-    "copy-from": "glock_21",
     "name": { "str": "格洛克手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_30",
-    "copy-from": "glock_30",
     "name": { "str": "格洛克 30 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_36",
-    "copy-from": "glock_36",
     "name": { "str": "格洛克 36 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_19",
-    "copy-from": "glock_19",
     "name": { "str": "格洛克便携手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_26",
-    "copy-from": "glock_26",
     "name": { "str": "格洛克 26 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_34",
-    "copy-from": "glock_34",
     "name": { "str": "格洛克 34 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_43",
-    "copy-from": "glock_43",
     "name": { "str": "格洛克 43 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_43x",
-    "copy-from": "glock_43x",
     "name": { "str": "格洛克 43X 手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_48",
-    "copy-from": "glock_48",
     "name": { "str": "格洛克 48 手枪" }
   },
   {
     "type": "ITEM",
     "id": "ksub2000",
-    "copy-from": "ksub2000",
     "name": { "str": "折叠式格洛克卡宾枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_17",
-    "copy-from": "glock_17",
     "name": { "str": "格洛克勤务手枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_18c",
-    "copy-from": "glock_18c",
     "name": { "str": "格洛克全自动手枪" }
   },
   {
     "type": "ITEM",
     "id": "rugerpcc",
-    "copy-from": "rugerpcc",
     "name": { "str": "格洛克卡宾枪" }
   },
   {
     "type": "ITEM",
     "id": "savage_rascal",
-    "copy-from": "savage_rascal",
     "name": { "str": "小型猎物单发步枪" }
   },
   {
     "type": "ITEM",
     "id": "remington_700_308",
-    "copy-from": "remington_700_308",
     "name": { "str": "猎用步枪" }
   },
   {
     "type": "ITEM",
     "id": "lws32",
-    "copy-from": "lws32",
     "name": { "str": "微型隐蔽携带手枪" }
   },
   {
     "type": "ITEM",
     "id": "spell_corrosive_spray",
-    "copy-from": "spell_corrosive_spray",
     "name": { "str": "腐蚀喷雾" }
   },
   {
     "type": "ITEM",
     "id": "spell_adhesive_spray",
-    "copy-from": "spell_adhesive_spray",
     "name": { "str": "黏合剂喷雾" }
   },
   {
     "type": "ITEM",
     "id": "spell_plasma_fan",
-    "copy-from": "spell_plasma_fan",
     "name": { "str": "等离子扇射器" }
   },
   {
     "type": "ITEM",
     "id": "m1014",
-    "copy-from": "m1014",
     "name": { "str": "5发自动装填战斗霰弹枪" }
   },
   {
     "type": "ITEM",
     "id": "glock_20mag",
-    "copy-from": "glock_20mag",
     "name": { "str": "格洛克 10mm 15发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock_20mag_10",
-    "copy-from": "glock_20mag_10",
     "name": { "str": "格洛克 10mm 10发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock_29mag",
-    "copy-from": "glock_29mag",
     "name": { "str": "格洛克 10mm 10发便携弹匣" }
   },
   {
     "type": "ITEM",
     "id": "tdi_10mm_mag",
-    "copy-from": "tdi_10mm_mag",
     "name": { "str": "格洛克 10mm 30发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock44_mag",
-    "copy-from": "glock44_mag",
     "name": { "str": "格洛克 44 10发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "lws32mag",
-    "copy-from": "lws32mag",
     "name": { "str": "微型隐蔽携带手枪弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock42_mag",
-    "copy-from": "glock42_mag",
     "name": { "str": "格洛克 42 弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock40bigmag",
-    "copy-from": "glock40bigmag",
     "name": { "str": "格洛克 .40 S&W 22发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock40mag",
-    "copy-from": "glock40mag",
     "name": { "str": "格洛克 .40 S&W 15发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock40mag_10",
-    "copy-from": "glock40mag_10",
     "name": { "str": "格洛克 .40 S&W 10发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock40mag_9",
-    "copy-from": "glock40mag_9",
     "name": { "str": "格洛克 27 弹匣" }
   },
   {
     "type": "ITEM",
     "id": "tdi_mag",
-    "copy-from": "tdi_mag",
     "name": { "str": "格洛克冲锋枪 30发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock_21mag",
-    "copy-from": "glock_21mag",
     "name": { "str": "格洛克 .45 13发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock_21mag_10",
-    "copy-from": "glock_21mag_10",
     "name": { "str": "格洛克 .45 10发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock_21mag26",
-    "copy-from": "glock_21mag26",
     "name": { "str": "格洛克 .45 26发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock36_mag",
-    "copy-from": "glock36_mag",
     "name": { "str": "格洛克 36 弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glockbigmag",
-    "copy-from": "glockbigmag",
     "name": { "str": "格洛克 9x19mm 33发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glockmag",
-    "copy-from": "glockmag",
     "name": { "str": "格洛克 9x19mm 15发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock43_mag",
-    "copy-from": "glock43_mag",
     "name": { "str": "格洛克 43 弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock43x/48_mag",
-    "copy-from": "glock43x/48_mag",
     "name": { "str": "格洛克 43X/48 弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glockmag_10",
-    "copy-from": "glockmag_10",
     "name": { "str": "格洛克 19 9x19mm 10发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock17_17",
-    "copy-from": "glock17_17",
     "name": { "str": "格洛克 9x19mm 17发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock17_10",
-    "copy-from": "glock17_10",
     "name": { "str": "格洛克 9x19mm 10发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock17_22",
-    "copy-from": "glock17_22",
     "name": { "str": "格洛克 9x19mm 22发弹匣" }
   },
   {
     "type": "ITEM",
     "id": "glock_drum_50rd",
-    "copy-from": "glock_drum_50rd",
     "name": { "str": "格洛克 9x19mm 50发弹鼓" }
   },
   {
     "type": "ITEM",
     "id": "glock_drum_100rd",
-    "copy-from": "glock_drum_100rd",
     "name": { "str": "格洛克 9x19mm 100发双联弹鼓" }
   }
 ]

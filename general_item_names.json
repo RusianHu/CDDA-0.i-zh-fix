@@ -2,91 +2,76 @@
   {
     "type": "ITEM",
     "id": "fresh_fries_j",
-    "copy-from": "fresh_fries_j",
     "name": { "str_sp": "细切薯条" }
   },
   {
     "type": "ITEM",
     "id": "candy_coated_peanuts",
-    "copy-from": "candy_coated_peanuts",
     "name": { "str_sp": "糖衣花生" }
   },
   {
     "type": "ITEM",
     "id": "unprimed_46mm_casing",
-    "copy-from": "unprimed_46mm_casing",
     "name": { "str": "无底火 4.6x30mm 弹壳" }
   },
   {
     "type": "ITEM",
     "id": "unprimed_458wm_casing",
-    "copy-from": "unprimed_458wm_casing",
     "name": { "str": "无底火 .458 WM 弹壳" }
   },
   {
     "type": "ITEM",
     "id": "unprimed_762_25_casing",
-    "copy-from": "unprimed_762_25_casing",
     "name": { "str": "无底火 7.62x25mm 弹壳" }
   },
   {
     "type": "ITEM",
     "id": "unprimed_357mag_casing",
-    "copy-from": "unprimed_357mag_casing",
     "name": { "str": "无底火 .357 马格南弹壳" }
   },
   {
     "type": "ITEM",
     "id": "unprimed_9x18mm_casing",
-    "copy-from": "unprimed_9x18mm_casing",
     "name": { "str": "无底火 9x18mm 弹壳" }
   },
   {
     "type": "ITEM",
     "id": "unprimed_300blk_casing",
-    "copy-from": "unprimed_300blk_casing",
     "name": { "str": "无底火 .300 BLK 弹壳" }
   },
   {
     "type": "ITEM",
     "id": "pike_wood",
-    "copy-from": "pike_wood",
     "name": { "str": "木制长矛" }
   },
   {
     "type": "ITEM",
     "id": "pike_copper",
-    "copy-from": "pike_copper",
     "name": { "str": "铜制长矛" }
   },
   {
     "type": "ITEM",
     "id": "pike_bronze",
-    "copy-from": "pike_bronze",
     "name": { "str": "青铜长矛" }
   },
   {
     "type": "ITEM",
     "id": "pike",
-    "copy-from": "pike",
     "name": { "str": "长矛" }
   },
   {
     "type": "ITEM",
     "id": "pike_fake",
-    "copy-from": "pike_fake",
     "name": { "str": "长矛" }
   },
   {
     "type": "ITEM",
     "id": "pike_inferior",
-    "copy-from": "pike_inferior",
     "name": { "str": "长矛" }
   },
   {
     "type": "ITEM",
     "id": "balthazar_radio",
-    "copy-from": "balthazar_radio",
     "name": { "str": "改装无线电" }
   }
 ]
