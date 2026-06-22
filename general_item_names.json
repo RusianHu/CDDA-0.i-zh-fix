@@ -1,77 +1,535 @@
 [
   {
     "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "id": "fresh_fries_j",
-    "name": { "str_sp": "细切薯条" }
+    "name": {
+      "str_sp": "细切薯条"
+    },
+    "copy-from": "fries",
+    "description": "Homemade deep-fried potatoes cut long and thin, with a touch of salt.  These were somewhat of a fad before the world ended.  Crunchy and delicious.",
+    "fun": 4
   },
   {
     "type": "ITEM",
+    "subtypes": [
+      "COMESTIBLE"
+    ],
     "id": "candy_coated_peanuts",
-    "name": { "str_sp": "糖衣花生" }
+    "name": {
+      "str_sp": "糖衣花生"
+    },
+    "weight": "30 g",
+    "color": "brown",
+    "spoils_in": "240 days",
+    "container": "box_snack",
+    "healthy": -1,
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -4,
+    "calories": 220,
+    "description": "Peanuts coated in a sweet, crunchy candy coating.  A regional delicacy.",
+    "//": "Based on a New England candy called Boston Baked Beans",
+    "price": "75 cent",
+    "price_postapoc": "3 USD",
+    "volume": "125 ml",
+    "material": [
+      "junk",
+      "nut"
+    ],
+    "flags": [
+      "EDIBLE_FROZEN"
+    ],
+    "fun": 6,
+    "vitamins": [
+      [
+        "calcium",
+        1
+      ],
+      [
+        "iron",
+        3
+      ],
+      [
+        "junk_allergen",
+        1
+      ],
+      [
+        "nut_allergen",
+        1
+      ]
+    ]
   },
   {
-    "type": "ITEM",
     "id": "unprimed_46mm_casing",
-    "name": { "str": "无底火 4.6x30mm 弹壳" }
+    "copy-from": "casing",
+    "looks_like": "9mm_casing",
+    "type": "ITEM",
+    "name": {
+      "str": "无底火 4.6x30mm 弹壳"
+    },
+    "description": "An empty casing from a 4.6x30mm round, with its primer removed.",
+    "weight": "2 g",
+    "volume": "3ml"
   },
   {
-    "type": "ITEM",
     "id": "unprimed_458wm_casing",
-    "name": { "str": "无底火 .458 WM 弹壳" }
+    "copy-from": "casing",
+    "looks_like": "50beowulf_casing",
+    "type": "ITEM",
+    "name": {
+      "str": "无底火 .458 WM 弹壳"
+    },
+    "description": "An empty casing from a .458 Winchester Magnum round, with its primer removed.",
+    "weight": "13 g",
+    "volume": "8ml"
   },
   {
-    "type": "ITEM",
     "id": "unprimed_762_25_casing",
-    "name": { "str": "无底火 7.62x25mm 弹壳" }
+    "copy-from": "casing",
+    "looks_like": "9mm_casing",
+    "type": "ITEM",
+    "name": {
+      "str": "无底火 7.62x25mm 弹壳"
+    },
+    "description": "An empty casing from a 7.62x25mm round, with its primer removed.",
+    "weight": "4 g",
+    "volume": "7ml"
   },
   {
-    "type": "ITEM",
     "id": "unprimed_357mag_casing",
-    "name": { "str": "无底火 .357 马格南弹壳" }
+    "copy-from": "casing",
+    "looks_like": "9mm_casing",
+    "type": "ITEM",
+    "name": {
+      "str": "无底火 .357 马格南弹壳"
+    },
+    "description": "An empty casing from a .357 magnum round, with its primer removed.",
+    "weight": "3 g",
+    "volume": "5ml"
   },
   {
-    "type": "ITEM",
     "id": "unprimed_9x18mm_casing",
-    "name": { "str": "无底火 9x18mm 弹壳" }
+    "copy-from": "casing",
+    "looks_like": "9mm_casing",
+    "type": "ITEM",
+    "name": {
+      "str": "无底火 9x18mm 弹壳"
+    },
+    "description": "An empty casing from a 9x18mm round, with its primer removed.",
+    "weight": "3 g",
+    "volume": "5ml"
   },
   {
-    "type": "ITEM",
     "id": "unprimed_300blk_casing",
-    "name": { "str": "无底火 .300 BLK 弹壳" }
+    "copy-from": "casing",
+    "looks_like": "223_casing",
+    "type": "ITEM",
+    "name": {
+      "str": "无底火 .300 BLK 弹壳"
+    },
+    "description": "An empty casing from a .300 AAC Blackout round, with its primer removed.",
+    "weight": "6 g",
+    "volume": "9ml"
   },
   {
-    "type": "ITEM",
     "id": "pike_wood",
-    "name": { "str": "木制长矛" }
+    "type": "ITEM",
+    "category": "weapons",
+    "name": {
+      "str": "木制长矛"
+    },
+    "description": "A medieval weapon consisting of a very long wooden shaft with a fire-hardened point.",
+    "weight": "2300 g",
+    "volume": "3500 ml",
+    "longest_side": "300 cm",
+    "price": "100 USD",
+    "price_postapoc": "7 USD 50 cent",
+    "to_hit": {
+      "grip": "solid",
+      "length": "long",
+      "surface": "point",
+      "balance": "neutral"
+    },
+    "material": [
+      "wood"
+    ],
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "pike",
+    "techniques": [
+      "WBLOCK_1",
+      "PENETRATE"
+    ],
+    "qualities": [
+      [
+        "COOK",
+        1
+      ]
+    ],
+    "use_action": [
+      "HEAT_SOLID_ITEMS"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "REACH3",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "faults": [
+      {
+        "fault_group": "staff_long"
+      }
+    ],
+    "weapon_category": [
+      "SPEARS"
+    ],
+    "melee_damage": {
+      "bash": 9,
+      "stab": 16
+    }
   },
   {
-    "type": "ITEM",
     "id": "pike_copper",
-    "name": { "str": "铜制长矛" }
+    "type": "ITEM",
+    "category": "weapons",
+    "name": {
+      "str": "铜制长矛"
+    },
+    "description": "A medieval weapon consisting of a very long wooden shaft tipped with a copper spearhead.",
+    "weight": "2500 g",
+    "volume": "3500 ml",
+    "longest_side": "300 cm",
+    "price": "150 USD",
+    "price_postapoc": "10 USD",
+    "to_hit": {
+      "grip": "solid",
+      "length": "long",
+      "surface": "point",
+      "balance": "neutral"
+    },
+    "material": [
+      "copper",
+      "wood"
+    ],
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "pike",
+    "techniques": [
+      "WBLOCK_1",
+      "PENETRATE"
+    ],
+    "qualities": [
+      [
+        "COOK",
+        1
+      ]
+    ],
+    "use_action": [
+      "HEAT_SOLID_ITEMS"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "REACH3",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "faults": [
+      {
+        "fault_group": "handle_long",
+        "weight_mult": 4
+      },
+      {
+        "fault_group": "spearhead"
+      }
+    ],
+    "weapon_category": [
+      "SPEARS"
+    ],
+    "melee_damage": {
+      "bash": 9,
+      "stab": 23
+    }
   },
   {
-    "type": "ITEM",
     "id": "pike_bronze",
-    "name": { "str": "青铜长矛" }
+    "type": "ITEM",
+    "name": {
+      "str": "青铜长矛"
+    },
+    "description": "A medieval weapon consisting of a very long wooden shaft tipped with a bronze spearhead.",
+    "weight": "2500 g",
+    "volume": "3500 ml",
+    "longest_side": "300 cm",
+    "price": "400 USD",
+    "price_postapoc": "40 USD",
+    "to_hit": {
+      "grip": "weapon",
+      "length": "long",
+      "surface": "point",
+      "balance": "neutral"
+    },
+    "material": [
+      "bronze",
+      "wood"
+    ],
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "pike_copper",
+    "techniques": [
+      "WBLOCK_1",
+      "PENETRATE"
+    ],
+    "qualities": [
+      [
+        "COOK",
+        1
+      ]
+    ],
+    "use_action": [
+      "HEAT_SOLID_ITEMS"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "REACH3",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "faults": [
+      {
+        "fault_group": "handle_long",
+        "weight_mult": 4
+      },
+      {
+        "fault_group": "spearhead"
+      }
+    ],
+    "weapon_category": [
+      "SPEARS"
+    ],
+    "category": "weapons",
+    "melee_damage": {
+      "bash": 9,
+      "stab": 28
+    }
   },
   {
-    "type": "ITEM",
     "id": "pike",
-    "name": { "str": "长矛" }
+    "type": "ITEM",
+    "name": {
+      "str": "长矛"
+    },
+    "description": "A medieval weapon consisting of a very long wooden shaft tipped with a steel spearhead.",
+    "weight": "2500 g",
+    "volume": "3500 ml",
+    "longest_side": "300 cm",
+    "price": "400 USD",
+    "price_postapoc": "50 USD",
+    "to_hit": {
+      "grip": "weapon",
+      "length": "long",
+      "surface": "point",
+      "balance": "neutral"
+    },
+    "material": [
+      "steel",
+      "wood"
+    ],
+    "symbol": "/",
+    "color": "brown",
+    "techniques": [
+      "WBLOCK_1",
+      "PENETRATE"
+    ],
+    "qualities": [
+      [
+        "COOK",
+        1
+      ]
+    ],
+    "use_action": [
+      "HEAT_SOLID_ITEMS"
+    ],
+    "flags": [
+      "DURABLE_MELEE",
+      "POLEARM",
+      "SPEAR",
+      "REACH_ATTACK",
+      "REACH3",
+      "NONCONDUCTIVE",
+      "ALWAYS_TWOHAND"
+    ],
+    "faults": [
+      {
+        "fault_group": "handle_long",
+        "weight_mult": 4
+      },
+      {
+        "fault_group": "spearhead"
+      }
+    ],
+    "weapon_category": [
+      "SPEARS"
+    ],
+    "category": "weapons",
+    "melee_damage": {
+      "bash": 9,
+      "stab": 32
+    }
   },
   {
-    "type": "ITEM",
     "id": "pike_fake",
-    "name": { "str": "长矛" }
+    "copy-from": "pike",
+    "type": "ITEM",
+    "name": {
+      "str": "长矛"
+    },
+    "description": "A dull, cheaply made replica of a medieval weapon consisting of a very long wooden shaft tipped with an iron spearhead.",
+    "proportional": {
+      "melee_damage": {
+        "bash": 1.44,
+        "stab": 0.06
+      }
+    },
+    "delete": {
+      "flags": [
+        "DURABLE_MELEE"
+      ]
+    },
+    "extend": {
+      "flags": [
+        "FRAGILE_MELEE"
+      ]
+    },
+    "material": [
+      "aluminum",
+      "wood"
+    ],
+    "weight": "2000 g",
+    "to_hit": {
+      "grip": "weapon",
+      "length": "long",
+      "surface": "point",
+      "balance": "neutral"
+    },
+    "price": "40 USD",
+    "price_postapoc": "5 USD"
   },
   {
-    "type": "ITEM",
     "id": "pike_inferior",
-    "name": { "str": "长矛" }
+    "copy-from": "pike",
+    "type": "ITEM",
+    "name": {
+      "str": "长矛"
+    },
+    "description": "A medieval weapon consisting of a very long wooden shaft tipped with an iron spearhead.  The head seems to be pretty dull, and the whole thing feels poorly made.",
+    "proportional": {
+      "melee_damage": {
+        "bash": 2.7,
+        "stab": 0.25
+      }
+    },
+    "delete": {
+      "flags": [
+        "DURABLE_MELEE"
+      ]
+    },
+    "material": [
+      "budget_steel",
+      "wood"
+    ],
+    "price": "400 USD",
+    "price_postapoc": "12 USD 50 cent"
   },
   {
-    "type": "ITEM",
     "id": "balthazar_radio",
-    "name": { "str": "改装无线电" }
+    "type": "ITEM",
+    "subtypes": [
+      "TOOL"
+    ],
+    "name": {
+      "str": "改装无线电"
+    },
+    "description": "A modified portable radio.  A mess of metal and wires has been attached to the back and the frequency dial has been removed.",
+    "//": "Slightly heavier and bulkier since it has had a block attached to the back",
+    "weight": "325 g",
+    "volume": "1250 ml",
+    "price": "10 USD",
+    "price_postapoc": "2 USD",
+    "material": [
+      "plastic",
+      "aluminum"
+    ],
+    "symbol": ";",
+    "color": "light_gray",
+    "faults": [
+      {
+        "fault_group": "electronic_general"
+      }
+    ],
+    "flags": [
+      "WATER_BREAK",
+      "ELECTRONIC"
+    ],
+    "use_action": {
+      "type": "effect_on_conditions",
+      "menu_text": "Use radio",
+      "effect_on_conditions": [
+        {
+          "id": "EOC_BALTHAZAR_RADIO_FALSE",
+          "condition": {
+            "u_has_mission": "MISSION_FIND_BALTHAZAR_BUNKER"
+          },
+          "effect": [
+            {
+              "u_message": "You turn the radio on.\n\nJust static.",
+              "popup": true
+            }
+          ]
+        },
+        {
+          "id": "EOC_BALTHAZAR_RADIO_TRUE",
+          "condition": {
+            "not": {
+              "u_has_mission": "MISSION_FIND_BALTHAZAR_BUNKER"
+            }
+          },
+          "effect": [
+            {
+              "if": {
+                "math": [
+                  "balthazar_power < 50"
+                ]
+              },
+              "then": {
+                "u_message": "You turn on the radio.  You hear a broadcast:\n\"If anyone can hear, I'm stuck in a bunker and need help.  I'm also transmitting my coordinates.  This message will repeat.\"\nYou note down the coordinates.",
+                "popup": true
+              },
+              "else": {
+                "u_message": "You turn on the radio.  You hear a broadcast:\n\"If anyone who is listening to this broadcast is willing to do work for weapons, head to the transmitted coordinates.  This message will repeat.\"\nYou write down the coordinates.",
+                "popup": true
+              }
+            },
+            {
+              "assign_mission": "MISSION_FIND_BALTHAZAR_BUNKER"
+            }
+          ]
+        }
+      ]
+    },
+    "melee_damage": {
+      "bash": 6
+    }
   }
 ]

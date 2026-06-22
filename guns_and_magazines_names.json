@@ -1,282 +1,2730 @@
 [
   {
-    "type": "ITEM",
     "id": "glock_29",
-    "name": { "str": "格洛克紧凑型手枪" }
+    "copy-from": "gun_base_10mm_semi_pistol",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克紧凑型手枪"
+    },
+    "description": "A small pistol accepting Glock magazines and chambered in 10mm.  Because of its size, it is easy to carry, but it has rather fierce recoil.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_29",
+        "name": {
+          "str": "Glock 29 pistol"
+        },
+        "description": "A modestly sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  It is easy to carry because of its small size, but also recoils fiercely."
+      }
+    ],
+    "ascii_picture": "glock_19",
+    "weight": "690 g",
+    "volume": "410 ml",
+    "longest_side": "177 mm",
+    "barrel_length": "96 mm",
+    "price": "605 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 510,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "99 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock_20mag_10",
+          "glock_29mag",
+          "glock_20mag",
+          "tdi_10mm_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_20",
-    "name": { "str": "格洛克手枪" }
+    "copy-from": "gun_base_10mm_semi_pistol",
+    "looks_like": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克手枪"
+    },
+    "description": "A semi-automatic pistol chambered in 10mm and accepting Glock magazines.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_20",
+        "name": {
+          "str": "Glock 20 pistol"
+        },
+        "description": "A full-sized version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The third model of Glock designed, all other full-sized, large framed Glocks are adaptations of this one."
+      }
+    ],
+    "ascii_picture": "glock_20",
+    "weight": "780 g",
+    "volume": "480 ml",
+    "longest_side": "205 mm",
+    "barrel_length": "117 mm",
+    "price": "592 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "103 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock_20mag_10",
+          "glock_20mag",
+          "tdi_10mm_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_40",
-    "name": { "str": "格洛克狩猎型手枪" }
+    "copy-from": "glock_20",
+    "looks_like": "glock_20",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克狩猎型手枪"
+    },
+    "description": "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use.  It also features Glock's Modular Optic System, making aftermarket optics much easier to mount.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_40",
+        "name": {
+          "str": "Glock 40 pistol"
+        },
+        "description": "A full-sized, long-slide version of the highly successful Glock, chambered in hard-hitting 10mm Auto.  The extra barrel length makes for slightly more accurate and powerful shots, and the extra slide length means the sights are a little easier to use."
+      }
+    ],
+    "ascii_picture": "glock_40mos",
+    "weight": "915 g",
+    "volume": "410 ml",
+    "longest_side": "213 mm",
+    "barrel_length": "153 mm",
+    "price": "655 USD",
+    "dispersion": 500
   },
   {
-    "type": "ITEM",
     "id": "TDI_10",
-    "name": { "str": "格洛克冲锋枪" }
+    "copy-from": "gun_base_10mm_semi_pistol",
+    "looks_like": "TDI",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "//": [
+      "Yes, I know it's not really a glock smg.",
+      "It takes glock magazines, and it's own special one that I am also renaming to a glock magazine",
+      "so, I'm calling it a glock smg."
+    ],
+    "name": {
+      "str": "格洛克冲锋枪"
+    },
+    "description": "A submachine gun chambered in 10mm, accepting Glock magazines.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "TDI_10",
+        "name": {
+          "str": "Vector SDP 10mm pistol"
+        },
+        "description": "The Vector SDP is a delayed blowback \"pistol\" with a unique, downward reciprocating bolt that helps combat muzzle climb.  This one is chambered in 10mm Auto."
+      }
+    ],
+    "weight": "2867 g",
+    "volume": "4386 ml",
+    "longest_side": "429 mm",
+    "price": "1 kUSD 429 USD",
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "magazine_well": "103 ml",
+        "item_restriction": [
+          "glock_20mag_10",
+          "glock_20mag",
+          "tdi_10mm_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_44",
-    "name": { "str": "格洛克 44 手枪" }
+    "copy-from": "gun_base_22_semi_pistol",
+    "looks_like": "glock19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 44 手枪"
+    },
+    "description": "A Glock chambered in .22LR.  While effective against paper targets and rodents, it will struggle against the walking dead.",
+    "weight": "358 g",
+    "volume": "398 ml",
+    "longest_side": "212 mm",
+    "barrel_length": "108 mm",
+    "price": "380 USD",
+    "price_postapoc": "10 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "dispersion": 580,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "40 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock44_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_42",
-    "name": { "str": "格洛克 42 手枪" }
+    "copy-from": "gun_base_380_semi_pistol",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 42 手枪"
+    },
+    "description": "The smallest gun Glock produces, chambered in .380 ACP.  Even though it is small a small gun that shoots a weak cartridge, it is still effective against small game, paper targets, and zombified children",
+    "weight": "345 g",
+    "volume": "234 ml",
+    "longest_side": "151 mm",
+    "barrel_length": "83 mm",
+    "price": "420 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 420,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "60 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock42_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_22",
-    "name": { "str_sp": "格洛克 22 手枪" }
+    "copy-from": "gun_base_40_semi_pistol",
+    "looks_like": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str_sp": "格洛克 22 手枪"
+    },
+    "description": "A .40 S&W variant of the popular Glock 17 pistol.  The standard-issue firearm of the FBI from 1997-2016, and of countless other law enforcement agencies worldwide.",
+    "ascii_picture": "glock_17",
+    "weight": "645 g",
+    "volume": "433 ml",
+    "longest_side": "234 mm",
+    "barrel_length": "125 mm",
+    "price": "690 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "magazine_well": "250 ml",
+        "item_restriction": [
+          "glock40mag_10",
+          "glock40mag",
+          "glock40bigmag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_23",
-    "name": { "str_sp": "格洛克 23 手枪" }
+    "copy-from": "glock_22",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str_sp": "格洛克 23 手枪"
+    },
+    "description": "A compact version of the Glock 22, chambered in .40 S&W.  Popular among civilian and law enforcement alike for its capacity, durability, and reliability.",
+    "weight": "600 g",
+    "volume": "401 ml",
+    "longest_side": "187 mm",
+    "barrel_length": "102 mm",
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "magazine_well": "250 ml",
+        "item_restriction": [
+          "glock40mag_10",
+          "glock40mag",
+          "glock40bigmag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_27",
-    "name": { "str_sp": "格洛克 27 手枪" }
+    "copy-from": "glock_22",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str_sp": "格洛克 27 手枪"
+    },
+    "description": "A diminutive pistol chambered in .40 S&W. Widely popular among concealed carriers, its popularity soared further in the months leading up to the Cataclysm, partly due to its ability to fit the higher cpacity magazines of its older brothers.",
+    "weight": "550 g",
+    "volume": "349 ml",
+    "longest_side": "165 mm",
+    "barrel_length": "87 mm",
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "magazine_well": "250 ml",
+        "item_restriction": [
+          "glock40mag_9",
+          "glock40mag_10",
+          "glock40mag",
+          "glock40bigmag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "TDI",
-    "name": { "str": "格洛克冲锋枪" }
+    "copy-from": "gun_base_45_semi_pistol",
+    "looks_like": "hk_mp5",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "reload_noise_volume": 10,
+    "//": [
+      "Yes, I know it's not really a glock smg.",
+      "It takes glock magazines, and it's own special one that I am also renaming to a glock magazine",
+      "so, I'm calling it a glock smg."
+    ],
+    "name": {
+      "str": "格洛克冲锋枪"
+    },
+    "description": "A submachine gun chambered in .45 ACP, accepting Glock magazines.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "TDI",
+        "name": {
+          "str": ".45 Vector submachine gun"
+        },
+        "description": "The Vector SMG is a delayed blowback submachine gun with a unique, in-line design that places both the shooter's hand and shoulder in line with the bore axis, reducing muzzle climb during bursts.  This one is chambered in .45 ACP."
+      }
+    ],
+    "weight": "3100 g",
+    "volume": "4248 ml",
+    "longest_side": "611 mm",
+    "barrel_length": "165 mm",
+    "price": "3 kUSD 100 USD",
+    "price_postapoc": "35 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "range": 1,
+    "skill": "smg",
+    "dispersion": 280,
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ],
+      [
+        "AUTO",
+        "auto",
+        6
+      ]
+    ],
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "default_mods": [
+      "folding_stock"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock_21mag_10",
+          "tdi_mag",
+          "glock_21mag",
+          "glock_21mag26"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_21",
-    "name": { "str": "格洛克手枪" }
+    "copy-from": "gun_base_45_semi_pistol",
+    "looks_like": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克手枪"
+    },
+    "description": "A semi-automatic pistol chambered in .45 ACP and accepting Glock magazines.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_21",
+        "name": {
+          "str": "Glock 21 pistol"
+        },
+        "description": "A full-sized version of the highly successful Glock.  This model is chambered in .45 ACP."
+      }
+    ],
+    "ascii_picture": "glock_20",
+    "weight": "835 g",
+    "volume": "490 ml",
+    "longest_side": "209 mm",
+    "barrel_length": "117 mm",
+    "price": "602 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "107 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock_21mag_10",
+          "glock_21mag",
+          "glock_21mag26"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_30",
-    "name": { "str": "格洛克 30 手枪" }
+    "copy-from": "gun_base_45_semi_pistol",
+    "looks_like": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 30 手枪"
+    },
+    "description": "A Glock compact pistol chambered in .45 ACP.  Accepts the same magazines as its older brothers.",
+    "weight": "675 g",
+    "volume": "422 ml",
+    "longest_side": "177 mm",
+    "barrel_length": "96 mm",
+    "price": "570 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "107 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock_21mag_10",
+          "glock_21mag",
+          "glock_21mag26"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_36",
-    "name": { "str": "格洛克 36 手枪" }
+    "copy-from": "gun_base_45_semi_pistol",
+    "looks_like": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 36 手枪"
+    },
+    "description": "A Glock subcompact pistol chambered in .45 ACP.  Due to its slim construction, it only accepts Glock 36 magazines.",
+    "weight": "565 g",
+    "volume": "370 ml",
+    "longest_side": "177 mm",
+    "barrel_length": "96 mm",
+    "price": "570 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "107 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock36_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_19",
-    "name": { "str": "格洛克便携手枪" }
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "looks_like": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克便携手枪"
+    },
+    "description": "A common 9x19mm pistol of modest proportions, produced by the popular Glock gun company and mainly built from plastic polymers.  Making use of aptly-named Glock magazines and being a decades-long popular concealed carry option for civilians due to its small size, it is a tried, tested, and reliable design.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_19",
+        "name": {
+          "str": "Glock 19 pistol"
+        },
+        "description": "Possibly the most popular pistol in existence, the Glock 19 can be summed up as being fundamentally a more compact brother to the full-sized Glock 17 pistol.  Sporting a mainly polymer-based design, the Glock 19 is often derided for its plastic construction which lends the handgun a deceptively flimsy feel.  Even so, the Glock 19 remains both a remarkably reliable firearm and a quite shootable gun in its own right.",
+        "weight": 100
+      },
+      {
+        "id": "glock_19_cop",
+        "name": {
+          "str": "Glock 19M"
+        },
+        "description": "A Glock 19 developed specially for the FBI, with all black internals and match grade components.  It was nearly impossible to find on the civilian market before the Cataclysm, now it is completely irreplacable.",
+        "weight": 0
+      },
+      {
+        "id": "glock_45",
+        "name": {
+          "str": "Glock 45 pistol"
+        },
+        "description": "The Glock 45 is practically identical to the Glock 19, the main difference being that the grip is styled to be closer to that of the Glock 17.",
+        "weight": 77
+      }
+    ],
+    "ascii_picture": "glock_19",
+    "weight": "600 g",
+    "volume": "386 ml",
+    "longest_side": "211 mm",
+    "barrel_length": "102 mm",
+    "price": "690 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glockmag_10",
+          "glock17_10",
+          "glockmag",
+          "glockbigmag",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_26",
-    "name": { "str": "格洛克 26 手枪" }
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 26 手枪"
+    },
+    "description": "A Glock subcompact pistol chambered in 9mm Luger.  Despite its tiny size, it can fit the magazines of its larger brothers.",
+    "weight": "550 g",
+    "volume": "348 ml",
+    "longest_side": "165 mm",
+    "barrel_length": "87 mm",
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "price": "690 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "dispersion": 480,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glockmag_10",
+          "glock17_10",
+          "glockmag",
+          "glockbigmag",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_34",
-    "name": { "str": "格洛克 34 手枪" }
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 34 手枪"
+    },
+    "description": "A large, stylish Glock chambered in 9mm.  Developed for accuracy, this pistol is used by competition shooters, law enforcement, and even the Baba Yaga.",
+    "weight": "655 g",
+    "volume": "427 ml",
+    "longest_side": "224 mm",
+    "barrel_length": "135 mm",
+    "price": "630 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "dispersion": 380,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock17_10",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd",
+          "glockbigmag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_43",
-    "name": { "str": "格洛克 43 手枪" }
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 43 手枪"
+    },
+    "description": "A 9x19mm Glock of diminutive proportions.  Unfortunately it is incompatible with other 9mm Glock magazines.",
+    "weight": "460 g",
+    "volume": "279 ml",
+    "longest_side": "159 mm",
+    "barrel_length": "87 mm",
+    "price": "570 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "dispersion": 480,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock43_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_43x",
-    "name": { "str": "格洛克 43X 手枪" }
+    "//": "This one uses 10 round doublestack mags, which are incompatible with the standard variant",
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 43X 手枪"
+    },
+    "description": "A 9mm compact Glock.  Despite its name, it does not accept the magazines of the Glock 43.",
+    "weight": "461 g",
+    "volume": "279 ml",
+    "longest_side": "165 mm",
+    "barrel_length": "87 mm",
+    "price": "570 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "dispersion": 480,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock43x/48_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_48",
-    "name": { "str": "格洛克 48 手枪" }
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "looks_like": "glock_19",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克 48 手枪"
+    },
+    "description": "A 9mm, slimline Glock.  Designed for concealed carry, and accepts the magazine from a Glock 43x, but not the base 43.",
+    "weight": "524 g",
+    "volume": "331 ml",
+    "longest_side": "185 mm",
+    "barrel_length": "106 mm",
+    "price": "570 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "dispersion": 480,
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock43x/48_mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "ksub2000",
-    "name": { "str": "折叠式格洛克卡宾枪" }
+    "copy-from": "gun_base_9mm_semi_rifle",
+    "looks_like": "hk_mp5",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "折叠式格洛克卡宾枪"
+    },
+    "description": "With its claim to fame being its ease of portability when compared to other conventional rifles and carbines, this is a uniquely-designed pistol caliber carbine sporting an integral folding mechanism and chambered for 9x19mm cartridges, making use of regular Glock compatible magazines.  With its mechanism engaged, the barrel assembly swings rearwards and causes the firearm to fold to half its regular length, packing up into a very compact package with ergonomics unfortunately having to take a backseat to allow for the weapon's extreme portability.  With a mainly polymer constructed receiver, the carbine is relatively light and incredibly transportable when fully folded.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "ksub2000",
+        "name": {
+          "str": "Kel-Tec SUB-2000 carbine"
+        },
+        "description": "With its claim to fame being its ease of portability when compared to other conventional rifles and carbines, the Kel-Tec SUB-2000 is a uniquely-designed pistol caliber carbine sporting an integral folding mechanism and chambered for 9x19mm cartridges, making use of regular Glock compatible magazines.  With its mechanism engaged, the barrel assembly swings rearwards and causes the firearm to fold to half its regular length, packing up into a very compact package with ergonomics unfortunately having to take a backseat to allow for the weapon's extreme portability.  With a mainly polymer constructed receiver, the carbine is relatively light and incredibly transportable when fully folded."
+      }
+    ],
+    "weight": "1930 g",
+    "volume": "1240 ml",
+    "longest_side": "410 mm",
+    "barrel_length": "274 mm",
+    "//": "The actual gun is around 30 cm longer than what's depicted here, but the inbuilt accessory adds 35 cm, which ends up totalling to the same length. IRL the SUB-2000 folds literally in half, which is a greatly smaller size than what our folding stocks can collapse to, so like this the length stays the same as far as the player can see, and you still get the same largely folded effect as you'd have on the real gun.",
+    "price": "750 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "range": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 3
+    },
+    "dispersion": 180,
+    "durability": 7,
+    "built_in_mods": [
+      "sub2000_folding_mechanism"
+    ],
+    "//1": "Assuming gen 3 to allow sights to be mounted and folded",
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glockmag",
+          "glockbigmag",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_17",
-    "name": { "str": "格洛克勤务手枪" }
+    "copy-from": "gun_base_9mm_semi_pistol",
+    "//": "Tilelist whitelist for pistols.",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克勤务手枪"
+    },
+    "description": "Designed for all shooters, this offering from the Glock gun company is a full-sized 9x19mm pistol marketed towards law-enforcement and military users.  Because of the long magazine well, it can't fit magazines shorter than the standard 17-round ones.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_17",
+        "name": {
+          "str": "Glock 17 pistol"
+        },
+        "description": "Commonly seen tucked away in the holsters of police officers, certain military professionals, and civilian shooters, this is a larger, older, service-oriented version of the popular Glock 19.  Similarly firing the 9x19mm cartridge and using higher capacity magazines, it performs largely the same, but due to the longer magazine well, it can't fit magazines shorter than the standard 17-round ones."
+      }
+    ],
+    "ascii_picture": "glock_17",
+    "weight": "630 g",
+    "volume": "427 ml",
+    "longest_side": "233 mm",
+    "barrel_length": "114 mm",
+    "price": "690 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": -1
+    },
+    "dispersion": 480,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "//2": "Glock 17s cannot load magazines shorter than the standard 17rd magazine.",
+    "pocket_data": [
+      {
+        "magazine_well": "250 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glock17_10",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd",
+          "glockbigmag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_18c",
-    "name": { "str": "格洛克全自动手枪" }
+    "copy-from": "glock_17",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克全自动手枪"
+    },
+    "description": "A military, fully automatic capable version of the popular 9x19mm handguns produced by the Glock arms company, this machine pistol makes use of Glock magazines.  The weapon has had its barrel modified to lessen recoil, a useful feature considering its high rate of fire and lack of a default buttstock.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_18c",
+        "name": {
+          "str": "Glock 18C pistol"
+        },
+        "description": "A selective-fire variation on the Glock 17, originally designed for Austria's EKO Cobra unit.  It has compensator cuts along its barrel to make recoil more manageable."
+      }
+    ],
+    "ascii_picture": "glock_18c",
+    "weight": "620 g",
+    "price": "1 kUSD",
+    "price_postapoc": "25 USD",
+    "modes": [
+      [
+        "DEFAULT",
+        "semi-auto",
+        1
+      ],
+      [
+        "AUTO",
+        "auto",
+        6
+      ]
+    ],
+    "built_in_mods": [
+      "barrel_ported"
+    ]
   },
   {
-    "type": "ITEM",
     "id": "rugerpcc",
-    "name": { "str": "格洛克卡宾枪" }
+    "copy-from": "gun_base_9mm_semi_rifle",
+    "looks_like": "modular_ar15",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "格洛克卡宾枪"
+    },
+    "description": "A lightweight pistol caliber carbine, chambered in 9mm and accepting Glock magazines.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "rugerpcc",
+        "name": {
+          "str": "Ruger PCC"
+        },
+        "description": "The Ruger PCC is a pistol caliber carbine, made by Ruger.  It's quite commonplace, thanks to its low recoil, reliability, and use of readily available magazines."
+      }
+    ],
+    "weight": "3084 g",
+    "volume": "2264 ml",
+    "longest_side": "879 mm",
+    "barrel_length": "409 mm",
+    "price": "779 USD",
+    "material": [
+      "steel",
+      "plastic",
+      "aluminum"
+    ],
+    "range": 6,
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 4
+    },
+    "dispersion": 180,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "brass catcher",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "//": "Assuming glock magwell, the other magwell for Ruger magazines can be added with the ruger pistol",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "glockmag_10",
+          "glock17_10",
+          "glockmag",
+          "glockbigmag",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "savage_rascal",
-    "name": { "str": "小型猎物单发步枪" }
+    "copy-from": "gun_base_rifle_manual",
+    "looks_like": "marlin_9a",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "小型猎物单发步枪"
+    },
+    "description": "A .22 Long Rifle rifle that chambers just one shot.  Its main use is for the youth, and not much else.  God help you if you hope to use this thing to a meaningful effect.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "savage_rascal",
+        "name": {
+          "str": "Savage Rascal"
+        },
+        "description": "A .22 Long Rifle rifle that chambers just one shot.  Its main use is for the youth, and not much else.  God help you if you hope to use this thing to a meaningful effect."
+      }
+    ],
+    "//": "Stats from https://savagearms.com/firearms/sku/13775",
+    "weight": "1230 g",
+    "volume": "1284 ml",
+    "longest_side": "783 mm",
+    "barrel_length": "410 mm",
+    "price": "169 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "melee_damage": {
+      "bash": 7
+    },
+    "range": 4,
+    "ammo": [
+      "22"
+    ],
+    "ranged_damage": {
+      "damage_type": "bullet",
+      "amount": 3
+    },
+    "dispersion": 100,
+    "clip_size": 1,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock accessory",
+        1
+      ],
+      [
+        "stock",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 1
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "remington_700_308",
-    "name": { "str": "猎用步枪" }
+    "copy-from": "gun_base_rifle_manual",
+    "looks_like": "modular_ar15",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "猎用步枪"
+    },
+    "description": "A very accurate rifle chambered for the powerful .308 round.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "remington_700_308",
+        "name": {
+          "str": "Remington Model 700"
+        },
+        "description": "An ubiquitous bolt action rifle, the Model 700 is used by police agencies, militaries, and civilians alike around the globe.  Simple, accurate, and cheap."
+      }
+    ],
+    "weight": "3289 g",
+    "volume": "3190 ml",
+    "longest_side": "1141 mm",
+    "barrel_length": "610 mm",
+    "price": "1 kUSD 400 USD",
+    "price_postapoc": "30 USD",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "ammo": [
+      "308"
+    ],
+    "dispersion": 120,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock accessory",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "clip_size": 4,
+    "barrel_volume": "750 ml",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "308": 4
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "lws32",
-    "name": { "str": "微型隐蔽携带手枪" }
+    "looks_like": "glock_17",
+    "copy-from": "gun_base_32_semi_pistol",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "微型隐蔽携带手枪"
+    },
+    "description": "A very small pistol chambered in .32 ACP.  Due to its intended role, it lacks any sights.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "lws32",
+        "name": {
+          "str": "Seecamp LWS 32"
+        },
+        "description": "A very small pistol chambered in .32 ACP.  It lacks any sort of sights as it's designed for very close engagement distances."
+      }
+    ],
+    "weight": "296 g",
+    "volume": "105 ml",
+    "longest_side": "127 mm",
+    "barrel_length": "51 mm",
+    "price": "579 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "steel",
+      "plastic",
+      "aluminum"
+    ],
+    "melee_damage": {
+      "bash": 3
+    },
+    "dispersion": 480,
+    "sight_dispersion": 1200,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "sights mount",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "magazine_well": "41 ml",
+        "pocket_type": "MAGAZINE_WELL",
+        "item_restriction": [
+          "lws32mag"
+        ]
+      }
+    ]
   },
   {
-    "type": "ITEM",
-    "id": "spell_corrosive_spray",
-    "name": { "str": "腐蚀喷雾" }
-  },
-  {
-    "type": "ITEM",
-    "id": "spell_adhesive_spray",
-    "name": { "str": "黏合剂喷雾" }
-  },
-  {
-    "type": "ITEM",
-    "id": "spell_plasma_fan",
-    "name": { "str": "等离子扇射器" }
-  },
-  {
-    "type": "ITEM",
     "id": "m1014",
-    "name": { "str": "5发自动装填战斗霰弹枪" }
+    "//": "Based on https://www.benelliusa.com/shotguns/m1014-shotguns",
+    "copy-from": "gun_base_shotgun_semi",
+    "type": "ITEM",
+    "subtypes": [
+      "GUN"
+    ],
+    "name": {
+      "str": "5发自动装填战斗霰弹枪"
+    },
+    "description": "A semi-automatic smooth-bore shotgun, this weapon features respectable ergonomics and room for 5 shotshells within its tubular magazine.  Suitable both for competition shooting and offensive combat roles, this firearm is faster to shoot than a traditional pump-action model, with the caveat that it's harder to maintain than its manually operated siblings as it relies on an internal gas system to cycle rounds rather than the user's own physical input.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "m1014",
+        "name": {
+          "str": "M1014 shotgun"
+        },
+        "description": "Benelli's first gas-operated shotgun, featuring dual pistons for enhanced reliability with various loads and a collapsible buttstock that reduces length by almost 8 inches.  Adopted in 1999 as the M1014 Joint Service Combat Shotgun, the Benelli M4 is one of the finest combat shotguns available."
+      }
+    ],
+    "ascii_picture": "mossberg930sxp",
+    "weight": "3629 g",
+    "volume": "2623 ml",
+    "longest_side": "1016 mm",
+    "barrel_length": "470 mm",
+    "looks_like": "remington_870",
+    "price": "2 kUSD 299 USD",
+    "material": [
+      "steel",
+      "aluminum",
+      "plastic"
+    ],
+    "dispersion": 345,
+    "clip_size": 5,
+    "valid_mod_locations": [
+      [
+        "barrel",
+        1
+      ],
+      [
+        "loading port",
+        1
+      ],
+      [
+        "mechanism",
+        2
+      ],
+      [
+        "muzzle",
+        1
+      ],
+      [
+        "rail mount",
+        1
+      ],
+      [
+        "sights",
+        1
+      ],
+      [
+        "sling",
+        1
+      ],
+      [
+        "stock accessory",
+        1
+      ],
+      [
+        "stock mount",
+        1
+      ],
+      [
+        "underbarrel mount",
+        1
+      ]
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "shot": 5
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_20mag",
-    "name": { "str": "格洛克 10mm 15发弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 10mm 15发弹匣"
+    },
+    "description": "A compact light-weight steel and polymer magazine for use with Glock pistols chambered for 10mm Auto.",
+    "weight": "70 g",
+    "volume": "103 ml",
+    "longest_side": "114 mm",
+    "price": "24 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "10mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "10mm": 15
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_20mag_10",
-    "name": { "str": "格洛克 10mm 10发弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 10mm 10发弹匣"
+    },
+    "description": "A compact light-weight steel and polymer magazine for use with Glock pistols chambered for 10mm Auto, limited to 10 rounds.",
+    "copy-from": "glock_20mag",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "10mm": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_29mag",
-    "name": { "str": "格洛克 10mm 10发便携弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 10mm 10发便携弹匣"
+    },
+    "description": "A stubby steel and polymer magazine for use with the compact Glock pistol.  It is too short to insert into most other 10mm Glock pattern magwells.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_29mag",
+        "name": {
+          "str": "Glock 29 10-round magazine"
+        },
+        "description": "A stubby steel and polymer magazine for use with the Glock 29.  It is too short to insert into most other 10mm Glock pattern magwells."
+      }
+    ],
+    "weight": "90 g",
+    "volume": "99 ml",
+    "longest_side": "112 mm",
+    "price": "25 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "10mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "10mm": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "tdi_10mm_mag",
-    "name": { "str": "格洛克 10mm 30发弹匣" }
+    "looks_like": "tdi_mag",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 10mm 30发弹匣"
+    },
+    "description": "A 30-round plastic and steel box 10mm Auto magazine for use with Glock pistols and submachine guns chambered in 10mm.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "tdi_10mm_mag",
+        "name": {
+          "str": "Glock 10mm 30-round magazine"
+        },
+        "description": "A 30-round plastic and steel box 10mm Auto magazine for use with Glock pattern magazine wells, namely the Vector SDP."
+      }
+    ],
+    "weight": "210 g",
+    "volume": "194 ml",
+    "longest_side": "256 mm",
+    "price": "18 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "10mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "10mm": 30
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock44_mag",
-    "name": { "str": "格洛克 44 10发弹匣" }
+    "//:": "I couldn't find much conclusive data, but by all accounts it seems to share the dimensions of the G19's magazine.",
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 44 10发弹匣"
+    },
+    "description": "A compact, light-weight polymer magazine for use with the Glock 44.",
+    "weight": "57 g",
+    "volume": "76 ml",
+    "longest_side": "111 mm",
+    "price": "25 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "22"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "22": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "lws32mag",
-    "name": { "str": "微型隐蔽携带手枪弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "微型隐蔽携带手枪弹匣"
+    },
+    "description": "A 6 round magazine for the micro conceal carry pistol.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "lws32mag",
+        "name": {
+          "str": "Seecamp LWS 32 magazine"
+        },
+        "description": "A 6 round magazine for the LWS 32."
+      }
+    ],
+    "weight": "30 g",
+    "volume": "20 ml",
+    "longest_side": "81 mm",
+    "price": "26 USD",
+    "price_postapoc": "5 cent",
+    "material": [
+      "steel",
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "32"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "32": 6
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock42_mag",
-    "name": { "str": "格洛克 42 弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 42 弹匣"
+    },
+    "description": "A standard 6-round capacity magazine for the Glock 42.",
+    "weight": "45 g",
+    "volume": "60ml",
+    "longest_side": "86 mm",
+    "price": "22 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "380"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "380": 6
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock40bigmag",
-    "name": { "str": "格洛克 .40 S&W 22发弹匣" }
+    "//": "Audited with ImageJ.  Weight from 15rd mag ratio.",
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 .40 S&W 22发弹匣"
+    },
+    "description": "An extended 22-round magazine for use with Glock pistols chambered for .40 S&W.",
+    "weight": "97 g",
+    "volume": "113 ml",
+    "longest_side": "15 cm",
+    "price": "59 USD",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "40"
+    ],
+    "reload_time": 140,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40": 22
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock40mag",
-    "name": { "str": "格洛克 .40 S&W 15发弹匣" }
+    "//": "Audited with ImageJ.  Weight from manufacturer.",
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 .40 S&W 15发弹匣"
+    },
+    "description": "A compact, light-weight polymer magazine for use with Glock pistols chambered for .40 S&W.",
+    "weight": "78 g",
+    "volume": "91 ml",
+    "longest_side": "12 cm",
+    "price": "32 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "40"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40": 15
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock40mag_10",
-    "name": { "str": "格洛克 .40 S&W 10发弹匣" }
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 .40 S&W 10发弹匣"
+    },
+    "description": "A compact, light-weight polymer magazine for use with Glock pistols chambered for .40 S&W.  It has been limited to 10 rounds to comply with firearm laws.",
+    "copy-from": "glock40mag",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock40mag_9",
-    "name": { "str": "格洛克 27 弹匣" }
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 27 弹匣"
+    },
+    "description": "A compact, light-weight polymer magazine with a 9 round capacity for use with Glock pistols chambered for .40 S&W.",
+    "weight": "55 g",
+    "volume": "85 ml",
+    "longest_side": "11 cm",
+    "price": "32 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "40"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "40": 9
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "tdi_mag",
-    "name": { "str": "格洛克冲锋枪 30发弹匣" }
+    "//": "Dimensions via ImageJ.  Weight from vendor.",
+    "looks_like": "mp5mag",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克冲锋枪 30发弹匣"
+    },
+    "description": "An aftermarket 30-round polymer and steel box magazine designed for use with the Glock pistol.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "tdi_mag",
+        "name": {
+          "str": "Vector SMG 30-round magazine"
+        },
+        "description": "A 30-round polymer and steel box magazine for use with the KRISS Vector."
+      }
+    ],
+    "weight": "124 g",
+    "volume": "211 ml",
+    "longest_side": "23 cm",
+    "price": "18 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "45"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "45": 30
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_21mag",
-    "name": { "str": "格洛克 .45 13发弹匣" }
+    "//": "Audited with ImageJ.  Weight from Manufacturer.",
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 .45 13发弹匣"
+    },
+    "description": "A 13-round magazine for use with Glock firearms chambered in .45 ACP.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_21mag",
+        "name": {
+          "str": "Glock 21 13-round magazine"
+        },
+        "description": "A standard capacity magazine for use with the Glock 21."
+      }
+    ],
+    "weight": "85 g",
+    "volume": "114 ml",
+    "longest_side": "125 mm",
+    "price": "40 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "45"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "45": 13
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_21mag_10",
-    "name": { "str": "格洛克 .45 10发弹匣" }
+    "//": "Audited with ImageJ.  Weight from Manufacturer.",
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 .45 10发弹匣"
+    },
+    "description": "A 10-round magazine for use with Glock firearms chambered in .45 ACP.",
+    "copy-from": "glock_21mag",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "45": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_21mag26",
-    "name": { "str": "格洛克 .45 26发弹匣" }
+    "//": "Audited with ImageJ.  Weight from Vendor.",
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 .45 26发弹匣"
+    },
+    "description": "A 26-round magazine for use with Glock firearms chambered in .45 ACP.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "glock_21mag26",
+        "name": {
+          "str": "Glock 21 26-round magazine"
+        },
+        "description": "A double-capacity magazine for use with the Glock 21."
+      }
+    ],
+    "weight": "159 g",
+    "volume": "205 ml",
+    "longest_side": "225 mm",
+    "price": "40 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "45"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "45": 26
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock36_mag",
-    "name": { "str": "格洛克 36 弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 36 弹匣"
+    },
+    "description": "A 6-round magazine for the Glock 36. Incompatible with other .45 Glocks",
+    "weight": "70 g",
+    "volume": "72 ml",
+    "copy-from": "glock_21mag",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "45": 6
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glockbigmag",
-    "name": { "str": "格洛克 9x19mm 33发弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 33发弹匣"
+    },
+    "description": "An extended 33-round polymer magazine for use with Glock compatible firearms.",
+    "weight": "124 g",
+    "volume": "145 ml",
+    "longest_side": "211 mm",
+    "price": "47 USD",
+    "price_postapoc": "5 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "reload_time": 140,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 33
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glockmag",
-    "name": { "str": "格洛克 9x19mm 15发弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 15发弹匣"
+    },
+    "description": "A compact, light-weight polymer magazine for use with Glock compatible firearms.",
+    "weight": "70 g",
+    "volume": "76 ml",
+    "longest_side": "111 mm",
+    "price": "29 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 15
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock43_mag",
-    "name": { "str": "格洛克 43 弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 43 弹匣"
+    },
+    "description": "A small 6-round magazine for the Glock 43.  Incompatible with the Glock 43X.",
+    "weight": "50 g",
+    "volume": "28 ml",
+    "price": "29 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 6
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock43x/48_mag",
-    "name": { "str": "格洛克 43X/48 弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 43X/48 弹匣"
+    },
+    "description": "A 10-round magazine for the Glock 43X and the Glock 48.  Incompatible with the Glock 43.",
+    "weight": "65 g",
+    "volume": "28 ml",
+    "price": "29 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glockmag_10",
-    "name": { "str": "格洛克 19 9x19mm 10发弹匣" }
+    "copy-from": "glockmag",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 19 9x19mm 10发弹匣"
+    },
+    "description": "A compact, light-weight polymer magazine for use with the Glock 19, which has been limited to 10 rounds to comply with firearm regulations.",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock17_17",
-    "name": { "str": "格洛克 9x19mm 17发弹匣" }
+    "//": "Tileset whitelist for pistol magazines",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 17发弹匣"
+    },
+    "description": "Made for the Glock 17, this magazine holds 17 rounds.",
+    "weight": "80 g",
+    "volume": "83 ml",
+    "longest_side": "121 mm",
+    "price": "29 USD",
+    "price_postapoc": "1 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "reload_time": 140,
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 17
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock17_10",
-    "name": { "str": "格洛克 9x19mm 10发弹匣" }
+    "copy-from": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 10发弹匣"
+    },
+    "description": "Made for the Glock 17, this magazine holds 10 rounds to comply with firearm regulations.",
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 10
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock17_22",
-    "name": { "str": "格洛克 9x19mm 22发弹匣" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 22发弹匣"
+    },
+    "description": "Made for the Glock 17, this cheap-looking aftermarket magazine holds 22 rounds.",
+    "weight": "108 g",
+    "volume": "96 ml",
+    "longest_side": "140 mm",
+    "price": "35 USD",
+    "price_postapoc": "2 USD",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "flags": [
+      "MAG_COMPACT"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 22
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_drum_50rd",
-    "name": { "str": "格洛克 9x19mm 50发弹鼓" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 50发弹鼓"
+    },
+    "description": "Made to fit most Glock pistols.  This drum magazine holds 50 rounds.",
+    "weight": "491 g",
+    "volume": "1159 ml",
+    "longest_side": "221 mm",
+    "price": "20 USD",
+    "price_postapoc": "7 USD 50 cent",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "flags": [
+      "MAG_BULKY"
+    ],
+    "mag_jam_mult": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 50
+        }
+      }
+    ]
   },
   {
-    "type": "ITEM",
     "id": "glock_drum_100rd",
-    "name": { "str": "格洛克 9x19mm 100发双联弹鼓" }
+    "looks_like": "glock17_17",
+    "type": "ITEM",
+    "subtypes": [
+      "MAGAZINE"
+    ],
+    "name": {
+      "str": "格洛克 9x19mm 100发双联弹鼓"
+    },
+    "description": "Made to fit most Glock pistols.  This double drum magazine holds 100 rounds.",
+    "weight": "1000 g",
+    "volume": "1274 ml",
+    "longest_side": "289 mm",
+    "price": "31 USD",
+    "price_postapoc": "7 USD 50 cent",
+    "material": [
+      "plastic",
+      "steel"
+    ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [
+      "9mm"
+    ],
+    "mag_jam_mult": 2,
+    "flags": [
+      "MAG_BULKY"
+    ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "ammo_restriction": {
+          "9mm": 100
+        }
+      }
+    ]
   }
 ]
